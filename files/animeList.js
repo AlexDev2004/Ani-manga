@@ -139,6 +139,30 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
             {title: "Saison 2", image: "asset/TheAncientMagusBride/S2.jpg", synopsis: `Grâce à Elias et tous ceux qu'elle a rencontré, Chise continue d'appréhender le monde magique dans lequel elle évolue désormais, parfois avec difficultés.`},
         ],
     }],
+    ["SPYxFAMILY",{
+        support:"anime",
+        title: "SPY×FAMILY",
+        originalTitle: "スパイファミリー",
+        otherTitle:  false,
+        type: "Série",
+        class: "Shonen",
+        genre: ["Action","Aventure","Comédie"],
+        theme: ["Assassinat","Espionnage","Famille","Guerre","Mensonges","Mystère","Organisations secrètes","Politique","Super pouvoirs","Terrorisme"],
+        episodes: 50,
+        saisons: 3,
+        status: "Terminé",
+        date: "Printemps 2022",
+        studio: "CloverWorks - Wit Studio",
+        diffusion: "Crunchyroll - Netflix - Amazon Prime Video",
+        synopsis: `Sauvez le monde avec l'élite des agents (très) spéciaux : la famille Forger ! Une comédie d'espionnage pétillante ! Twilight, le plus grand espion du monde, doit pour sa nouvelle mission créer une famille de toutes pièces afin de pouvoir s'introduire dans la plus prestigieuse école de l'aristocratie. Totalement dépourvu d'expérience familiale, il va adopter une petite fille en ignorant qu'elle est télépathe, et s'associer à une jeune femme timide, sans se douter qu'elle est une redoutable tueuse à gages. Ce trio atypique va devoir composer pour passer inaperçu, tout en découvrant les vraies valeurs d'une famille unie et aimante.`,
+        image: "asset/SPYxFAMILY/S1.jpg",
+        background:"asset/SPYxFAMILY/Bg.jpg",
+        listSaisons: [
+            {title: "Saison 1", image: "asset/SPYxFAMILY/S1.jpg", synopsis: `Afin de préserver la paix entre Westalis et Ostania, l'espion Twilight reçoit une mission capitale : approcher Donovan Desmond. Sous l'identité de Loid Forger, il doit fonder une famille et inscrire son enfant à la prestigieuse académie Eden. Il adopte alors Anya et épouse Yor, sans savoir que la première est télépathe et que la seconde est une redoutable tueuse à gages. Chacun cachant sa véritable identité, cette famille improvisée va devoir apprendre à vivre ensemble tandis que Loid poursuit secrètement l'opération Strix.`},
+            {title: "Saison 2", image: "asset/SPYxFAMILY/S2.jpg", synopsis: `La famille Forger poursuit son quotidien mouvementé tandis que Loid continue l'opération Strix et qu'Anya tente de se rapprocher de Damian à l'académie Eden. De son côté, Yor commence à s'interroger sur sa double vie lorsqu'une nouvelle mission lui est confiée : protéger une femme et son enfant traqués par de nombreux assassins à bord d'un luxueux paquebot. Par un incroyable hasard, Loid et Anya embarquent eux aussi pour la croisière. Yor devra alors accomplir sa mission sans révéler à sa famille qu'elle est la redoutable Princesse Ibara.`},
+            {title: "Saison 3", image: "asset/SPYxFAMILY/S3.jpg", synopsis: `L'opération Strix se poursuit et Anya doit toujours gagner suffisamment d'Étoiles Stella pour permettre à Loid d'approcher Donovan Desmond. Mais le passé de Twilight refait surface, dévoilant les événements qui l'ont conduit à devenir espion et son désir de créer un monde où les enfants ne pleurent plus. Pendant ce temps, Anya se retrouve au cœur d'une situation autrement plus dangereuse lorsque son bus scolaire est détourné par le Cirque Rouge. Les Forger vont une nouvelle fois être confrontés aux tensions qui menacent la fragile paix entre les deux pays.`},
+        ],
+    }],
 ];
 
 
