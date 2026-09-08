@@ -74,6 +74,8 @@ cardList.map((cardId , i)=>{
 
         if(resultOrdered[i][1].support == "manga"){
             localStorage.setItem("mangaCardClicked",resultOrdered[i][0]);
+        }else{
+            localStorage.setItem("animeCardClicked",resultOrdered[i][0]);
         }
     });
 });
