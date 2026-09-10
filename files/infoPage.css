@@ -25,7 +25,12 @@ main{
         height:716px;
     }
 }
-
+#infos , #synopsis{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding:10px;
+    height: fit-content;
+}
 
 h3{
     font-weight: normal;

@@ -64,6 +64,7 @@ infos.append(originalTitle,otherTitle,episodes,saisons,classif,genre,theme,date,
 
 const synopsis = document.createElement("p");
 synopsis.innerHTML = animeSelect.synopsis;
+synopsis.setAttribute("id","synopsis");
 
 page.append(title,blocInfo,synopsis);
 

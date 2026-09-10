@@ -63,6 +63,7 @@ infos.append(originalTitle,otherTitle,origine,sortieVF,auteur,classif,genre,them
 
 const synopsis = document.createElement("p");
 synopsis.innerHTML = mangaSelect.synopsis;
+synopsis.setAttribute("id","synopsis");
 
 // ---------------Ajout des tomes-------------------------------------------------
 

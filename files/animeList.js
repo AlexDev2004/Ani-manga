@@ -245,6 +245,29 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
         background:"asset/JunLaVoixDuCoeur/Bg.jpg",
         listSaisons: false,
     }],
+        ["SaikiKusuoNoPsyNan",{
+        support:"manga",
+        title: "Saiki Kusuo no Ψ Nan",
+        originalTitle: " 斉木楠雄のサイ難",
+        otherTitle: "Saiki Kusuo no PSY Nan - Saiki Kusuo no Sainan -  The Disastrous Life of Saiki K.",
+        type:  "Série",
+        class: "Shonen",
+        genre: ["Comédie","Slice of Life","Surnaturel"],
+        theme: ["Quotidien","École","Médium","School life","Super pouvoirs"],
+        episodes: 48,
+        saisons: 2,
+        status: "Terminé",
+        date: "Hiver 2018",
+        studio: "Egg Firm - J.C. Staff",
+        diffusion: "Netflix",
+        synopsis: `Kusuo Saiki est un étudiant de 16 ans qui possède plusieurs dons surnaturels, dont la télépathie et la télékinésie. Des pouvoirs dont n'importe qui rêverait, mais qui cause à notre héros un certain nombres de problèmes... Kusuo tente malgré tout de mener une vie normale.`,
+        image: "asset/SaikiKusuoNoPsyNan/S1.jpg",
+        background:"asset/SaikiKusuoNoPsyNan/Bg.jpg",
+        listSaisons: [
+            {title: "Saison 1", image:"asset/SaikiKusuoNoPsyNan/S1.jpg", synopsis: `Kusuo Saiki est un lycéen doté de pouvoirs psychiques extraordinaires, qu'il cherche à garder secrets afin de mener une vie normale. Télépathie, télékinésie, téléportation… aucun pouvoir ne lui permet pourtant d'échapper aux situations absurdes provoquées par ses camarades, entre Nendô, Kaidô, Teruhashi et bien d'autres. Alors qu'il tente constamment de rester discret, son quotidien devient de plus en plus mouvementé.`},
+            {title: "Saison 2", image:"asset/SaikiKusuoNoPsyNan/S2.jpg", synopsis: `Kusuo poursuit son quotidien de lycéen en espérant enfin vivre tranquillement, mais ses pouvoirs et ses camarades ne lui laissent aucun répit. Entre l'arrivée de nouveaux personnages, notamment une autre personne aux pouvoirs psychiques, et les nombreuses mésaventures de son entourage, Kusuo doit une nouvelle fois tout faire pour rester discret. Et cette fois, une menace bien plus importante pourrait mettre en danger l'avenir du Japon.`},
+        ],
+    }],
 ];
 
 
