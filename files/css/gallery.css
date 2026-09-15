@@ -1,0 +1,32 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 234px;
+    height: 357px;
+}
+a.cardTitre{
+    display: flex;
+    width: 500px;
+    gap:20px;
+    background-color: white;
+    margin-bottom: 40px;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding:5px;
+    text-decoration: none;
+    color: black;
+
+    a{
+        text-decoration: none;
+        color:rgb(92, 1, 1);
+    }
+    a:hover{
+        font-weight: bold;
+    }
+}
+.cardTitre:hover{
+    background-color: rgba(240, 227, 227, 0.5);
+}
