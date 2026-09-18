@@ -380,6 +380,26 @@ Au fur et à mesure que les jours passent, les ordres du "Roi" deviennent de plu
         background:"../img/KingsGame/Bg.jpg",
         listSaisons: false,
     }],
+    ["NazoNoKanojoX",{
+        support:"anime",
+        title: "Nazo no Kanojo X",
+        originalTitle: "謎の彼女X",
+        otherTitle: "Mysterious Girlfriend X",
+        type:  "Série",
+        class: "Seinen",
+        genre: ["Ecchi","Romance","Surnaturel"],
+        theme: ["École","Mystère","School Life"],
+        episodes: 13,
+        saisons: 1,
+        status: "Terminé",
+        date: "Printemps 2012",
+        studio: "Hoods Entertainment",
+        diffusion: "?",
+        synopsis: `TSUBAKI Akira, un lycéen, voit débarquer une nouvelle élève dans sa classe : la mystérieuse URABE Mikoto. Dès son arrivée, celle-ci ne manque pas de se faire remarquer, par son caractère discret et son attitude atypique. Après les cours, alors que la jeune fille est affalée sur son bureau, Akira la tire de son sommeil, et se rend compte que Mikoto, en dormant, a laissé une trace de sa salive sur son pupitre. Quand celle-ci rentre chez elle, une idée pour le moins étrange traverse l'esprit du garçon, qui se met alors à goûter sa salive. Peu après, il tombe malade, et Mikoto lui rend visite chez lui pour lui expliquer qu'il est devenu... accro à sa salive ! Selon elle, il est amoureux, et pour éviter que le jeune homme ne fasse d'autres crises de manque, il doit goûter un peu de celle-ci chaque jour. C'est ainsi que Akira, réellement sous son charme, est amené à sortir avec Mikoto. S'ensuivent alors de drôles d'aventures liées par le "fil" de la salive...`,
+        image: "../img/NazoNoKanojoX/S1.jpg",
+        background:"../img/NazoNoKanojoX/Bg.jpg",
+        listSaisons: false,
+    }],
 ];
 
 

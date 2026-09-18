@@ -7,6 +7,10 @@ img{
     width: 234px;
     height: 357px;
 }
+.flag{
+    width: 50px;
+    height: 30px;
+}
 a.cardTitre{
     display: flex;
     width: 500px;

@@ -41,11 +41,21 @@ function createCardManga(mangaPos,target){
     themes.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
     
     const tomeVF = document.createElement("p");
-    tomeVF.innerHTML = `<strong>Tomes VF :</strong> ${manga.VF}`;
+    const flag = document.createElement("img");
+    if(!manga.VF){
+        flag.setAttribute("src","../svgFlag/jp.svg");
+    }else{
+        tomeVF.innerHTML = `<strong>Tomes VF :</strong> ${manga.VF}`;
+        flag.setAttribute("src","../svgFlag/fr.svg");
+    }
+    flag.setAttribute("class","flag");
+    flag.style.border = "solid black 1px";
+    flag.style.borderRadius = "3px";
+
     const tomeVO = document.createElement("p");
     tomeVO.innerHTML = `<strong>Tomes VO :</strong> ${manga.VO}`;
 
-    info.append(title,classif,genres,themes,tomeVF,tomeVO);
+    info.append(title,classif,genres,themes,tomeVF,tomeVO,flag);
 
     card.appendChild(info);
     target.appendChild(card);
