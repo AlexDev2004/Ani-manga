@@ -400,6 +400,53 @@ Au fur et à mesure que les jours passent, les ordres du "Roi" deviennent de plu
         background:"../img/NazoNoKanojoX/Bg.jpg",
         listSaisons: false,
     }],
+    ["MiraiNikki",{
+        support:"anime",
+        title: "Mirai Nikki",
+        originalTitle: "未来日記",
+        otherTitle: "Mirai Nikki, Le journal du futur - Future Diary",
+        type:  "Série",
+        class: "Shonen",
+        genre: ["Action","Fantastique","Horreur","Psychologique","Romance"],
+        theme: ["Assassinat","Crime","Détective","Gore","Mort","Survival game","Terrorisme","Vengeance","Voyage temporel"],
+        episodes: 26,
+        saisons: 1,
+        status: "Terminé",
+        date: "Automne 2011",
+        studio: "asread",
+        diffusion: "Crunchyroll",
+        synopsis: `L'histoire nous entraîne dans le quotidien de Yukiteru Amano un jeune adolescent solitaire se renfermant sur lui-même détaché de la réalité. Il préfère se réfugier dans son monde avec ses amis imaginaires plutôt que de s'en faire de vrais dans la réalité.
+Seulement un jour, sa vie va basculer, lorsque Deus l'une de ses nombreuses créations se révèle être plus qu'un être imaginaire. Deus offre alors à Yukiteru la possibilité de voir dans le "futur" seulement, Deus est un dieu qui décide de céder sa place à celui qui survivra à un jeu de survie impitoyable.`,
+        image: "../img/MiraiNikki/S1.jpg",
+        background:"../img/MiraiNikki/Bg.jpg",
+        listSaisons: false,
+    }],
+    ["MushokuTensei",{
+        support:"anime",
+        title: "Mushoku Tensei",
+        originalTitle: "無職転生 ～異世界行ったら本気だす～",
+        otherTitle: "Mushoku Tensei, Isekai Ittara Honki Dasu - Mushoku Tensei, Jobless Reincarnation",
+        type:  "Série",
+        class: "Seinen",
+        genre: ["Action","Ecchi","Fantastique","Isekai","Romance","Slice of Life"],
+        theme: ["Autre monde","Harem","Magie","Réincarnation"],
+        episodes: 63,
+        saisons: 3,
+        status: "En cours",
+        date: "Hiver 2021",
+        studio: "Studio Bind",
+        diffusion: "Crunchyroll - Netflix",
+        synopsis: `L'histoire nous entraîne dans le quotidien d'un NEET qui vient d'être chassé de chez ses parents. Ayant le moral au plus bas, il pense au suicide. Jusqu'au jour où il aperçoit une ancienne camarade de classe sur le point de se faire renverser. D'un geste héroïque, il la pousse et se fait renverser à sa place. Suite à ça, il meurt puis se retrouve réincarné dans un monde fantaisiste.
+Il se réincarne dans le corps d'un enfant du nom de Rudeus Greyrat. Il est le fils d'un épéiste nommé Paul Greyrat et d'une ancienne aventurière nommée Zenith Greyrat.
+Bien décidé à faire quelque chose de sa nouvelle vie en tant que Rudeus, il va essayer de devenir le plus grand magicien de l'histoire.`,
+        image: "../img/MushokuTensei/S1.jpg",
+        background:"../img/MushokuTensei/Bg.jpg",
+        listSaisons: [
+            {title: "Saison 1", image:"../img/MushokuTensei/S1.jpg", synopsis: ``},
+            {title: "Saison 2", image:"../img/MushokuTensei/S2.jpg", synopsis: ``},
+            {title: "Saison 2", image:"../img/MushokuTensei/S3.jpg", synopsis: ``},
+        ],
+    }],
 ];
 
 
