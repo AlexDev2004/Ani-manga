@@ -447,6 +447,28 @@ Bien décidé à faire quelque chose de sa nouvelle vie en tant que Rudeus, il v
             {title: "Saison 2", image:"../img/MushokuTensei/S3.jpg", synopsis: ``},
         ],
     }],
+    ["SoImSpiderSoWhat",{
+        support:"anime",
+        title: "So I'm a Spider, So What?",
+        originalTitle: "蜘蛛ですが、なにか?",
+        otherTitle: "Kumo Desu ga, Nani ka?",
+        type:  "Série",
+        class: "Seinen",
+        genre: ["Action","Aventure","Comédie","Drame","Fantastique","Isekai","Surnaturel"],
+        theme: ["Animaux","Autre monde","Magie","Réincarnation","Survie"],
+        episodes: 24,
+        saisons: 1,
+        status: "En cours",
+        date: "Hiver 2021",
+        studio: "Millepensee",
+        diffusion: "Crunchyroll",
+        synopsis: `Dans un monde parallèle, le héros et le roi démon se livrent à un combat d'une telle violence, que leur magie s'est ressentie sur la Terre, allant même jusqu'à détruire une classe remplie d'élèves. Cependant, toute les personnes mortes dans cet incident sont réincarnées dans un monde fantastique, dans lequel ils vont pouvoir trouver une nouvelle forme.
+L'histoire nous entraîne dans le quotidien d'une des victimes. Cette personne, ayant les plus mauvaises notes de la classe, se retrouve réincarnée en araignée.
+Malgré sa position peu avantageuse, elle accepte sa nouvelle vie et va tout faire pour pouvoir survivre, par la seule force de la volonté.`,
+        image: "../img/SoImSpiderSoWhat/S1.jpg",
+        background:"../img/SoImSpiderSoWhat/Bg.jpg",
+        listSaisons: false
+    }],
 ];
 
 
