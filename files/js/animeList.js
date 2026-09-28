@@ -643,6 +643,64 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
         background:"../img/LoveHina/Bg.jpg",
        listSaisons: false,
     }],
+    ["RealGirl",{
+        support:"anime",
+        title: "Real Girl",
+        originalTitle: "3D彼女",
+        otherTitle: "3D Kanojo - 3D Girlfriend",
+        type:  "Série",
+        class: "Shojo",
+        genre: ["Comédie","Romance","Slice of life"],
+        theme: ["Adolescence","Amitié","Amour","Drame","École","Otaku","School life"],
+        episodes: 24,
+        saisons: 2,
+        status: "Terminé",
+        date: "Printemps 2018",
+        studio: "Hoods Entertainment",
+        diffusion: "ADN",
+        synopsis: `Hikari Tsutsui est un otaku tout ce qu'il y a de plus basique. Il déteste avoir affaire avec les autres et tout particulièrement avec sa classe. À cause de cela, il est moqué par ses camarades. Un jour, il doit nettoyer la piscine en compagnie d'Iroha Igarashi, une jolie fille. Elle est d'ailleurs tout ce qu'il déteste chez les vraies filles ; elle sèche les cours, n'a aucune amies du sexe féminin et bien plus encore. Pourtant, elle est gentille avec lui et l'aidera même quand il sera de nouveau embêté par des élèves. Iroha pourrait bien changer la vie monotone d'Hikari...`,
+        image: "../img/RealGirl/S1.jpg",
+        background:"../img/RealGirl/Bg.jpg",
+        listSaisons: [
+            {title: "Saison 1", image:"../img/RealGirl/S1.jpg", synopsis: `Hikari Tsutsui est un otaku tout ce qu'il y a de plus basique. Il déteste avoir affaire avec les autres et tout particulièrement avec sa classe. À cause de cela, il est moqué par ses camarades. Un jour, il doit nettoyer la piscine en compagnie d'Iroha Igarashi, une jolie fille. Elle est d'ailleurs tout ce qu'il déteste chez les vraies filles ; elle sèche les cours, n'a aucune amies du sexe féminin et bien plus encore. Pourtant, elle est gentille avec lui et l'aidera même quand il sera de nouveau embêté par des élèves. Iroha pourrait bien changer la vie monotone d'Hikari...`},
+            {title: "Saison 2", image:"../img/RealGirl/S2.jpg", synopsis: `Seconde saison de 3D Kanojo - Real Girl.`},
+        ],   
+    }],
+    ["FairyTail",{
+        support:"anime",
+        title: "Fairy Tail",
+        originalTitle: "フェアリーテイル",
+        otherTitle: false,
+        type:  "Série",
+        class: "Shonen",
+        genre: ["Action","Aventure","Comédie","Fantastique","Nekketsu"],
+        theme: ["Amitié","Combat","Dragon","Esprit","Magie"],
+        episodes: 328,
+        saisons: 9, 
+        status: "Terminé",
+        date: "Automne 2009",
+        studio: "A-1 Pictures - Satelight",
+        diffusion: "ADN - Amazon Prime Video",
+        synopsis: `Lucy est une jeune magicienne qui désire par dessus tout entrer dans une guilde magique.
+Elle décide de se rendre à Harujion afin d'obtenir des infos sur les guildes, particulièrement la guilde Fairy Tail.
+Lors de ses recherches, elle rencontre le mystérieux Salamander, membre de la célèbre guilde Fairy Tail.
+Malheureusement ce dernier n'est qu'un charlatan qui utilise des enchantements pour envoûter des femmes et ainsi les revendre au marché d'esclaves !
+Alors que Lucy se trouve sous l'envoûtement de Salamander, un garçon mystérieux du nom de Natsu accompagné d'un chat bleu pouvant parler appelé Happy, la percute et rompt le sortilège de Salamander. Pour remercier Natsu et Happy, elle décide de les inviter au restaurant. Plus tard, Salamander lui fait une proposition : si elle vient à la fête sur le bateau, qu'il organise, il la fera entrer chez Fairy Tail. Lucy accepte et s'y rend. A la fête, elle se rend compte que Salamander n'est qu'un escroc et qu'il ne fait même pas partie de Fairy Tail. Elle veut fuir mais, alors qu'elle est sur le point de se faire kidnapper, Natsu et Happy arrivent et la sauvent. C'est alors qu'elle découvre qu'ils sont des mages et qu'ils font partie de Fairy Tail.
+C'est le début des aventures de Natsu et Lucy au sein du monde magique de Fairy Tail !`,
+        image: "../img/FairyTail/S1.jpg",
+        background:"../img/FairyTail/Bg.jpg",
+        listSaisons: [
+            {title: "Saison 1", image:"../img/FairyTail/S1.jpg", synopsis: `Lucy, jeune constellationniste rêvant d’intégrer Fairy Tail, rencontre Natsu et Happy et rejoint enfin la célèbre guilde. Avec Grey et Erza, elle enchaîne les missions et affronte de nombreux ennemis. Entre l’île de Galuna, la guerre contre Phantom Lord, la Tour du Paradis et les conflits internes de la guilde, Lucy découvre peu à peu une véritable famille.`},
+            {title: "Saison 2", image:"../img/FairyTail/S2.jpg", synopsis: `Fairy Tail s’allie à plusieurs guildes pour affronter Oración Seis, une puissante guilde noire cherchant à s’emparer de Nirvana, une magie antique extrêmement dangereuse. Natsu et ses compagnons rencontrent alors Wendy, une jeune chasseuse de dragons. Après cette bataille, de nouvelles aventures attendent la guilde, notamment autour de la mystérieuse Daphné.`},
+            {title: "Saison 2", image:"../img/FairyTail/S3.jpg", synopsis: `Natsu, Wendy, Happy et Carla découvrent Edolas, un monde parallèle où la magie disparaît peu à peu et où existent d’étranges doubles de leurs amis. De retour à Earthland, les membres de Fairy Tail se rendent sur l’île de Tenrô pour l’examen de rang S. Mais l’arrivée de Grimoire Heart, de Zeleph puis d’Acnologia transforme l’épreuve en combat pour leur survie.`},
+            {title: "Saison 2", image:"../img/FairyTail/S4.jpg", synopsis: `Après sept années d’absence, les membres disparus sur l’île de Tenrô retrouvent une Fairy Tail affaiblie et dépassée par ses anciennes rivales. Alors qu’ils tentent de reprendre leur place, Lucy reçoit un mystérieux souvenir de son père. Celui-ci les entraîne sur la piste des pièces d’une ancienne horloge, convoitées par une organisation dont les projets menacent tout le royaume.`},
+            {title: "Saison 2", image:"../img/FairyTail/S5.jpg", synopsis: `Fairy Tail participe aux Grands Jeux intermagiques afin de retrouver sa réputation et redevenir la meilleure guilde de Fiore. Natsu, Lucy, Grey, Erza et leurs compagnons affrontent les mages les plus puissants du royaume, notamment ceux de Saber Tooth. Mais derrière le tournoi se cache un complot inquiétant impliquant Lucy, une mystérieuse porte et des événements venus du futur.`},
+            {title: "Saison 2", image:"../img/FairyTail/S6.jpg", synopsis: `Les Grands Jeux intermagiques prennent une tournure dramatique lorsque le projet Éclipse ouvre la voie à une invasion de dragons. Fairy Tail et ses alliés doivent unir leurs forces pour sauver le royaume. Après cette bataille, une étrange perturbation touche les esprits stellaires de Lucy : libérés de leurs contrats, ils se retournent contre leurs anciens maîtres et cherchent une liberté définitive.`},
+            {title: "Saison 2", image:"../img/FairyTail/S7.jpg", synopsis: `près plusieurs aventures, Natsu et ses compagnons découvrent le Village du Soleil, dont les habitants ont été mystérieusement pétrifiés. Mais une menace bien plus importante apparaît bientôt : Tartaros. Cette guilde noire composée de démons liés à Zeleph lance une offensive contre le monde magique. Fairy Tail se retrouve engagée dans l’une des batailles les plus éprouvantes de son histoire.`},
+            {title: "Saison 2", image:"../img/FairyTail/S8.jpg", synopsis: `Bien avant les aventures de Natsu et Lucy, Mavis Vermillion vit sur l’île de Tenrô. Sa rencontre avec Yuri Dreyar, Precht et Warrod l’entraîne dans une aventure qui conduira à la naissance de Fairy Tail et à sa rencontre avec Zeleph. Des années plus tard, après la dissolution de la guilde, Natsu et Happy reviennent de leur entraînement avec l’intention de retrouver leurs anciens compagnons.`},
+            {title: "Saison 2", image:"../img/FairyTail/S9.jpg", synopsis: `Natsu et Lucy partent retrouver les anciens membres de Fairy Tail afin de reformer leur guilde. Après leur confrontation avec Avatar, une menace sans précédent approche : l’Empire Alvarez de Zeleph envahit Fiore avec les redoutables Spriggan 12. Une guerre décisive commence, révélant les secrets de Natsu, Mavis et Zeleph, tandis qu’Acnologia menace à son tour l’avenir du monde.`},
+        ],   
+    }],
 ];
 
 
