@@ -42,7 +42,7 @@ if(animeSelect.otherTitle != false){
     otherTitle.innerHTML = `<strong>Titres alternatifs :</strong> ${animeSelect.otherTitle}`;
 }
 type.innerHTML =  `<strong>Type :</strong> ${animeSelect.type}`;
-date.innerHTML =  `<strong>Date :</strong> ${animeSelect.date}`;
+date.innerHTML =  `<strong>Date :</strong> ${animeSelect.sortie}`;
 studio.innerHTML =  `<strong>Studio :</strong> ${animeSelect.studio}`;
 classif.innerHTML =  `<strong>Classification :</strong> <a href="search.html">${animeSelect.class}</a>`;
 

@@ -1,7 +1,9 @@
 const mangaGallery = document.querySelector(".gallery");
 
 mangaOrdered.map((manga)=>{
-    createCardManga(manga,mangaGallery);
+    if(manga[1].support == "manga"){
+        createCardManga(manga,mangaGallery);
+    }
 });
 
 

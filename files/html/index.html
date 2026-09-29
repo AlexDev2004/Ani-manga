@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ani'manga</title>
-    <link rel="icon" href="img/logoipsum-custom-logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../img/logoipsum-custom-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/gallery.css">
 </head>
 <body>
     <header>
@@ -15,21 +16,24 @@
         </svg>
         <nav>
             <a href="#">Accueil</a>
-            <a href="html/manga.html">Manga</a>
-            <a href="html/anime.html">Anime</a>
-            <a href="html/genres.html">Genres</a>
-            <form id="searchZone" action="html/search.html"><input type="text" id="search" name="search" placeholder="Rechercher un titre"><button type="submit">Rechercher</button></form>
+            <a href="manga.html">Manga</a>
+            <a href="anime.html">Anime</a>
+            <a href="genres.html">Genres</a>
+            <form id="searchZone" action="search.html"><input type="text" id="search" name="search" placeholder="Rechercher un titre"><button type="submit">Rechercher</button></form>
             <a href="#">Favoris</a>
             <a href="#">Mes listes</a>
             <a href="#">Compte</a>
         </nav>
     </header>
-    <main>
-
+    <main id="searchGallery">
+        <div class="gallery"></div>
     </main>
     <footer>
 
     </footer>
-    <script src="js/script.js"></script> 
+    <script src="../js/mangaList.js"></script>
+    <script src="../js/animeList.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

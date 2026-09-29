@@ -12,7 +12,7 @@ const animeList=[
         episodes: 76,
         saisons: 3,
         status: "En cours",
-        date: "Eté 2012",
+        sortie: "Eté 2012",
         studio: "A-1 Pictures",
         diffusion: "ADN",
         synopsis: `Cette série raconte les aventures de Kirito qui se retrouve piégé dans un jeu massivement multi-joueurs, Sword Art Online. En 2022, l'humanité a réussi à créer une réalité virtuelle. Grâce à un casque, les humains peuvent se plonger entièrement dans le monde virtuel en étant comme déconnectés de la réalité, et Sword Art Online est le premier MMORPG a utiliser ce système. Mais voila que le premier jour de jeu, 10 000 personnes se retrouvent piégées dans cette réalité virtuelle par son créateur : Akihiko Kayaba. Le seul moyen d'en sortir est de finir le jeu. Mais ce ne sera pas facile de sortir de ce monde virtuel puisque si un joueur perd la partie, il meurt également dans la vraie vie. Kirito décide alors de partir à la conquête du jeu en solo, avec pour avantage le fait de faire partie des 1 000 ex-bêta-testeurs, mais arrivera-t-il à terminer les 99 donjons et leurs boss ? "Même si cela semble être un jeu vidéo, ce n'est pas un jeu" Akihiko Kayaba - Créateur de "Sword Art Online"`,
@@ -37,7 +37,7 @@ const animeList=[
         episodes: 24,
         saisons: 2,
         status: "En cours",
-        date: "Automne 2020",
+        sortie: "Automne 2020",
         studio: "SEVEN·ARCS",
         diffusion: "Crunchyroll",
         synopsis: `Le prénom de Nasa Yuzaki, un collégien studieux, s'écrit avec le kanji de «Nuit étoilée», mais il se prononce «Nasa». Pour ne plus que l'on se moque de son nom étrange, il s'est juré de devenir une personne importante.
@@ -65,7 +65,7 @@ Plusieurs années après cet événement, Tsukasa vient sonner chez Nasa pour te
         episodes: 37,
         saisons: 1,
         status: "Terminé",
-        date: "Automne 2006",
+        sortie: "Automne 2006",
         studio: "Madhouse",
         diffusion: "YouTube - Netflix - Crunchyroll",
         synopsis: `Light Yagami, un jeune étudiant surdoué, ramasse un jour le "Death Note", un carnet tenu auparavant par un shinigami (Dieu de la mort), Ryuk, qui apparemment s'ennuyait dans son monde.
@@ -89,7 +89,7 @@ Cependant, qui est-il pour juger les gens ? Il devient donc le pire criminel rec
         episodes: 24,
         saisons: 1,
         status: "Terminé",
-        date: "printemps 2012",
+        sortie: "printemps 2012",
         studio: "SUNRISE",
         diffusion: "Wakanim (Licence expirée)",
         synopsis: `L'histoire se passe au cours de l'année 2046, dans un monde où le virtuel est omniprésent, notamment grâce aux "neuro-linkers".
@@ -114,7 +114,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
         episodes: 1,
         saisons: 1,
         status: "Terminé",
-        date: "Eté 2024",
+        sortie: "Eté 2024",
         studio: "Studio Durian",
         diffusion: "Amazon Prime Video",
         synopsis: `Fujino est une adolescente qui dessine des manga pour le journal de l'école. Son art fait d'elle la star de sa classe mais un jour, elle apprend que Kyomoto, une élève qui refuse de venir à l'école, aimerait elle aussi soumettre un manga pour le journal...`,
@@ -135,7 +135,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
         episodes: 48,
         saisons: 2,
         status: "Terminé",
-        date: "automne 2017",
+        sortie: "automne 2017",
         studio: "Wit Studio",
         diffusion: "Crunchyroll",
         synopsis: `Fujino est une adolescente qui dessine des manga pour le journal de l'école. Son art fait d'elle la star de sa classe mais un jour, elle apprend que Kyomoto, une élève qui refuse de venir à l'école, aimerait elle aussi soumettre un manga pour le journal...`,
@@ -148,6 +148,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
     }],
     ["SPYxFAMILY",{
         support:"anime",
+        date: 251227,
         title: "SPY×FAMILY",
         originalTitle: "スパイファミリー",
         otherTitle:  false,
@@ -158,7 +159,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
         episodes: 50,
         saisons: 3,
         status: "Terminé",
-        date: "Printemps 2022",
+        sortie: "Printemps 2022",
         studio: "CloverWorks - Wit Studio",
         diffusion: "Crunchyroll - Netflix - Amazon Prime Video",
         synopsis: `Sauvez le monde avec l'élite des agents (très) spéciaux : la famille Forger ! Une comédie d'espionnage pétillante ! Twilight, le plus grand espion du monde, doit pour sa nouvelle mission créer une famille de toutes pièces afin de pouvoir s'introduire dans la plus prestigieuse école de l'aristocratie. Totalement dépourvu d'expérience familiale, il va adopter une petite fille en ignorant qu'elle est télépathe, et s'associer à une jeune femme timide, sans se douter qu'elle est une redoutable tueuse à gages. Ce trio atypique va devoir composer pour passer inaperçu, tout en découvrant les vraies valeurs d'une famille unie et aimante.`,
@@ -172,6 +173,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
     }],
     ["SteinsGate",{
         support:"anime",
+        date: 20110913,
         title: "Steins;gate",
         originalTitle: "シュタインズ ゲート",
         otherTitle:  false,
@@ -182,7 +184,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
         episodes: 24,
         saisons: 1,
         status: "Terminé",
-        date: "Printemps 2011",
+        sortie: "Printemps 2011",
         studio: "WHITE FOX",
         diffusion: "Amazon Prime Video - ADN",
         synopsis: `Dans le quartier Otaku qu'est Akihabara, un groupe d'amis modifient leur micro-ondes de manière à en faire un dispositif qui leur permet d'envoyer des emails dans le passé.
@@ -194,6 +196,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
     }],
     ["BlueBox",{
         support:"anime",
+        date: 20250327,
         title: "Blue Box",
         originalTitle: "アオのハコ",
         otherTitle:  "Ao no Hako",
@@ -204,7 +207,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
         episodes: 25,
         saisons: 1,
         status: "En cours",
-        date: "Automne 2024",
+        sortie: "Automne 2024",
         studio: "Telecom Animation Film",
         diffusion: "Netflix",
         synopsis: `Taiki Inomata, membre du club de badminton, a eu le coup de foudre pour Chinatsu Kano, la star du club de basket de son établissement. Il s'entraîne à ses côtés tous les matin. Sa relation avec Chinatsu va prendre un tournant totalement inédit lorsqu'un jour de printemps, une nouvelle des plus déconcertantes va lui offrir une opportunité inespérée de conquérir sa belle.`,
@@ -214,6 +217,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
     }],
     ["Bloom",{
         support:"anime",
+        date: 20250927,
         title: "Bloom",
         originalTitle: "薫る花は凛と咲く",
         otherTitle:  "Kaoru Hana wa Rin to Saku - The Fragrant Flower Blooms With Dignity - Kaoruhana",
@@ -224,7 +228,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
         episodes: 13,
         saisons: 1,
         status: "En cours",
-        date: "Eté 2025",
+        sortie: "Eté 2025",
         studio: "CloverWorks",
         diffusion: "Netflix",
         synopsis: `L'histoire se déroule dans une ville où deux écoles sont tristement célèbres pour être en conflit permanent. D'un côté, il y a le lycée Chidori, une école pour garçons fréquentée principalement par des élèves aux notes accablantes et de l'autre, le lycée pour filles Kikyo dont la plupart des étudiantes sont issues de familles riches et prestigieuses.Un jour, alors que Rintaro Tsumugi, élève du lycée Chidori à l'allure imposante aide à la pâtisserie de sa famille, il fait la rencontre d'une cliente nommée Kaoruko Waguri. Rintaro apprécie le temps qu'il passe avec Kaoruko car elle ne le juge pas pour son apparence. Cependant, Rintaro découvre rapidement que Kaoruko est en réalité une étudiante de Kikyo. Cette révélation marque le début d'une histoire mouvementée pour les deux jeunes gens, qui doivent lutter contre les obstacles imposés par leur école et leur entourage pour tenter de trouver leur propre voie !`,
@@ -234,6 +238,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
     }],
     ["JunLaVoixDuCoeur",{
         support:"anime",
+        date: 20170913,
         title: "Jun, la voix du cœur",
         originalTitle: "心が叫びたがってるんだ。",
         otherTitle:  "Kokoro ga Sakebitagatterun Da. -  The Anthem of the Heart - Beautiful Word, Beautiful World - Kokosake",
@@ -244,7 +249,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
         episodes: 1,
         saisons: 1,
         status: "Terminé",
-        date: "Eté 2015",
+        sortie: "Eté 2015",
         studio: "A-1 Pictures",
         diffusion: "ADN (License expirée)",
         synopsis: `Jun est une fille dont les mots ont été scellés. Avant, elle était une fille très heureuse, mais à cause d'une certaine chose qu'elle a dite lorsqu'elle était très jeune, sa famille s'est déchirée. Un jour, la fée des œufs est apparue devant elle et a scellé sa capacité à parler afin de l'empêcher de blesser autrui. Depuis cette expérience traumatisante, Jun vit dans l'ombre de la foule. Mais, un jour, elle est nommée pour devenir membre exécutif d'un groupe scolaire. Par-dessus le marché, Jun est aussi désignée pour jouer le rôle principal dans leur comédie musicale...`,
@@ -254,6 +259,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
     }],
     ["SaikiKusuoNoPsyNan",{
         support:"anime",
+        date: 20161226,
         title: "Saiki Kusuo no Ψ Nan",
         originalTitle: " 斉木楠雄のサイ難",
         otherTitle: "Saiki Kusuo no PSY Nan - Saiki Kusuo no Sainan -  The Disastrous Life of Saiki K.",
@@ -264,7 +270,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
         episodes: 48,
         saisons: 2,
         status: "Terminé",
-        date: "Hiver 2018",
+        sortie: "Hiver 2018",
         studio: "Egg Firm - J.C. Staff",
         diffusion: "Netflix",
         synopsis: `Kusuo Saiki est un étudiant de 16 ans qui possède plusieurs dons surnaturels, dont la télépathie et la télékinésie. Des pouvoirs dont n'importe qui rêverait, mais qui cause à notre héros un certain nombres de problèmes... Kusuo tente malgré tout de mener une vie normale.`,
@@ -277,6 +283,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
     }],
     ["RollOverAndDie",{
         support:"anime",
+        date: 20260326,
         title: "Roll Over and Die",
         originalTitle: "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
         otherTitle: `Jamais tu ne vaincras le Roi démon ! - "Omae Gotoki ga Maō ni Kateru to Omou na" to Yūsha Party wo Tsuihō Sareta no de, Ōto de Kimama ni Kurashitai - ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!`,
@@ -287,7 +294,7 @@ Une organisation, la SERN, a mené différentes recherches à propos des voyages
         episodes: 12,
         saisons: 1,
         status: "En cours",
-        date: "Hiver 2026",
+        sortie: "Hiver 2026",
         studio: "A.C.G.T.",
         diffusion: "Crunchyroll",
         synopsis: `Flum Apricot n'a jamais été destinée à être une héroïne. Malgré des statistiques proches de zéro et un pouvoir qu'elle ne peut même pas utiliser, elle se retrouve membre d'un groupe de héros. Mais la vie de Flum sombre lorsque Jean Inteige, le célèbre sage du groupe, décide qu'elle est un poids mort et s'arrange pour qu'elle soit vendue comme esclave.
@@ -298,6 +305,7 @@ Jetée aux monstres pour qu'ils la dévorent afin de divertir son maître, Flum 
     }],
     ["Mashle",{
         support:"anime",
+        date: 20240330,
         title: "Mashle",
         originalTitle: "マッシュル",
         otherTitle: "Mashle - Magic and Muscles",
@@ -308,7 +316,7 @@ Jetée aux monstres pour qu'ils la dévorent afin de divertir son maître, Flum 
         episodes: 24,
         saisons: 2,
         status: "En cours",
-        date: "Printemps 2023",
+        sortie: "Printemps 2023",
         studio: "A-1 Pictures",
         diffusion: "Crunchyroll",
         synopsis: `L'histoire se déroule dans un royaume où la magie est omniprésente et est considérée comme un don divin. Dans cette société, le rang social est déterminé par le potentiel magique et ceux qui n'en disposent pas sont punis de mort.
@@ -322,6 +330,7 @@ Mash Burnedead est né sans pouvoirs magiques mais il a survécu caché dans une
     }],
     ["LaVoieDuTablier",{
         support:"anime",
+        date: 20230101,
         title: "La Voie du Tablier",
         originalTitle: "極主夫道",
         otherTitle: "Gokushufudō - The Way of the Househusband",
@@ -332,7 +341,7 @@ Mash Burnedead est né sans pouvoirs magiques mais il a survécu caché dans une
         episodes: 15,
         saisons: 2,
         status: "En cours",
-        date: "Printemps 2021",
+        sortie: "Printemps 2021",
         studio: "J.C. Staff",
         diffusion: "Netflix",
         synopsis: `Tatsu, l'immortel, le légendaire yakuza qui a vaincu à lui seul un gang rival avec un tuyau de plomb, est connu pour autant effrayer les policiers endurcis que les criminels les plus vicieux. Peu de temps après sa disparition, il refait surface avec un léger changement de profession. Désormais équipé d'un tablier, Tatsu a renoncé à la violence et tente de gagner honnêtement sa vie en tant que mari au foyer.
@@ -347,6 +356,7 @@ Nous allons donc suivre le quotidien d'un ex-yakuza qui a laissé sa dangereuse 
     }],
     ["Orange",{
         support:"anime",
+        date: 20160925,
         title: "Orange",
         originalTitle: "オレンジ",
         otherTitle: false,
@@ -357,7 +367,7 @@ Nous allons donc suivre le quotidien d'un ex-yakuza qui a laissé sa dangereuse 
         episodes: 13,
         saisons: 1,
         status: "Terminé",
-        date: "Eté 2016",
+        sortie: "Eté 2016",
         studio: "Telecom Animation Film - TMS Entertainment",
         diffusion: "Viki",
         synopsis: `Un jour de printemps, Naho Takamiya, âgée de 16 ans, reçoit une étrange lettre signée de son propre nom, datant de dix ans dans le futur. Elle croit d'abord bien sûr à une plaisanterie. Cependant, en commençant à lire la lettre et les détails qui y sont écrits, elle se rend compte au fur et à mesure que des évènements relatés se sont réalisés tels que l'arrivée du nouvel étudiant, Kakeru Naruse, qui est assis à côté d'elle en classe.
@@ -368,6 +378,7 @@ Dans la lettre, la Naho du futur parle de ses nombreux regrets, sous-entendant �
     }],
     ["KingsGame",{
         support:"anime",
+        date: 20171221,
         title: `King's Game "The Animation"`,
         originalTitle: "王様ゲーム The Animation",
         otherTitle: "Ō-sama The Animation",
@@ -378,7 +389,7 @@ Dans la lettre, la Naho du futur parle de ses nombreux regrets, sous-entendant �
         episodes: 12,
         saisons: 1,
         status: "Terminé",
-        date: "Automne 2017",
+        sortie: "Automne 2017",
         studio: "Seven",
         diffusion: "Crunchyroll",
         synopsis: `L'histoire se centre sur une classe entière de 32 lycéens qui reçoivent un étrange message venant d'une personne se faisant appeler le "Roi". Le message contient des ordres que les lycéens doivent accomplir sous peine de mourir.
@@ -389,6 +400,7 @@ Au fur et à mesure que les jours passent, les ordres du "Roi" deviennent de plu
     }],
     ["NazoNoKanojoX",{
         support:"anime",
+        date: 20120701,
         title: "Nazo no Kanojo X",
         originalTitle: "謎の彼女X",
         otherTitle: "Mysterious Girlfriend X",
@@ -399,7 +411,7 @@ Au fur et à mesure que les jours passent, les ordres du "Roi" deviennent de plu
         episodes: 13,
         saisons: 1,
         status: "Terminé",
-        date: "Printemps 2012",
+        sortie: "Printemps 2012",
         studio: "Hoods Entertainment",
         diffusion: "?",
         synopsis: `TSUBAKI Akira, un lycéen, voit débarquer une nouvelle élève dans sa classe : la mystérieuse URABE Mikoto. Dès son arrivée, celle-ci ne manque pas de se faire remarquer, par son caractère discret et son attitude atypique. Après les cours, alors que la jeune fille est affalée sur son bureau, Akira la tire de son sommeil, et se rend compte que Mikoto, en dormant, a laissé une trace de sa salive sur son pupitre. Quand celle-ci rentre chez elle, une idée pour le moins étrange traverse l'esprit du garçon, qui se met alors à goûter sa salive. Peu après, il tombe malade, et Mikoto lui rend visite chez lui pour lui expliquer qu'il est devenu... accro à sa salive ! Selon elle, il est amoureux, et pour éviter que le jeune homme ne fasse d'autres crises de manque, il doit goûter un peu de celle-ci chaque jour. C'est ainsi que Akira, réellement sous son charme, est amené à sortir avec Mikoto. S'ensuivent alors de drôles d'aventures liées par le "fil" de la salive...`,
@@ -409,6 +421,7 @@ Au fur et à mesure que les jours passent, les ordres du "Roi" deviennent de plu
     }],
     ["MiraiNikki",{
         support:"anime",
+        date: 20120415,
         title: "Mirai Nikki",
         originalTitle: "未来日記",
         otherTitle: "Mirai Nikki, Le journal du futur - Future Diary",
@@ -419,7 +432,7 @@ Au fur et à mesure que les jours passent, les ordres du "Roi" deviennent de plu
         episodes: 26,
         saisons: 1,
         status: "Terminé",
-        date: "Automne 2011",
+        sortie: "Automne 2011",
         studio: "asread",
         diffusion: "Crunchyroll",
         synopsis: `L'histoire nous entraîne dans le quotidien de Yukiteru Amano un jeune adolescent solitaire se renfermant sur lui-même détaché de la réalité. Il préfère se réfugier dans son monde avec ses amis imaginaires plutôt que de s'en faire de vrais dans la réalité.
@@ -430,6 +443,7 @@ Seulement un jour, sa vie va basculer, lorsque Deus l'une de ses nombreuses cré
     }],
     ["MushokuTensei",{
         support:"anime",
+        date: 20260927,
         title: "Mushoku Tensei",
         originalTitle: "無職転生 ～異世界行ったら本気だす～",
         otherTitle: "Mushoku Tensei, Isekai Ittara Honki Dasu - Mushoku Tensei, Jobless Reincarnation",
@@ -440,7 +454,7 @@ Seulement un jour, sa vie va basculer, lorsque Deus l'une de ses nombreuses cré
         episodes: 63,
         saisons: 3,
         status: "En cours",
-        date: "Hiver 2021",
+        sortie: "Hiver 2021",
         studio: "Studio Bind",
         diffusion: "Crunchyroll - Netflix",
         synopsis: `L'histoire nous entraîne dans le quotidien d'un NEET qui vient d'être chassé de chez ses parents. Ayant le moral au plus bas, il pense au suicide. Jusqu'au jour où il aperçoit une ancienne camarade de classe sur le point de se faire renverser. D'un geste héroïque, il la pousse et se fait renverser à sa place. Suite à ça, il meurt puis se retrouve réincarné dans un monde fantaisiste.
@@ -456,6 +470,7 @@ Bien décidé à faire quelque chose de sa nouvelle vie en tant que Rudeus, il v
     }],
     ["SoImSpiderSoWhat",{
         support:"anime",
+        date: 20210703,
         title: "So I'm a Spider, So What?",
         originalTitle: "蜘蛛ですが、なにか?",
         otherTitle: "Kumo Desu ga, Nani ka?",
@@ -466,7 +481,7 @@ Bien décidé à faire quelque chose de sa nouvelle vie en tant que Rudeus, il v
         episodes: 24,
         saisons: 1,
         status: "En cours",
-        date: "Hiver 2021",
+        sortie: "Hiver 2021",
         studio: "Millepensee",
         diffusion: "Crunchyroll",
         synopsis: `Dans un monde parallèle, le héros et le roi démon se livrent à un combat d'une telle violence, que leur magie s'est ressentie sur la Terre, allant même jusqu'à détruire une classe remplie d'élèves. Cependant, toute les personnes mortes dans cet incident sont réincarnées dans un monde fantastique, dans lequel ils vont pouvoir trouver une nouvelle forme.
@@ -478,6 +493,7 @@ Malgré sa position peu avantageuse, elle accepte sa nouvelle vie et va tout fai
     }],
     ["Horimiya",{
         support:"anime",
+        date: 20230923,
         title: "Horimiya",
         originalTitle: "ホリミヤ",
         otherTitle:  "Hori-Miya",
@@ -488,7 +504,7 @@ Malgré sa position peu avantageuse, elle accepte sa nouvelle vie et va tout fai
         episodes: 26,
         saisons: 2,
         status: "Terminé",
-        date: "Hiver 2021",
+        sortie: "Hiver 2021",
         studio: "CloverWorks",
         diffusion: "Crunchyroll",
         synopsis: `Bien qu'admirée à l'école pour sa gentillesse et ses prouesses académiques, Kyôko Hori est cependant différente chez elle. Avec ses parents souvent absents pour travailler, Hori doit s'occuper de son jeune frère et faire le ménage, l'empêchant ainsi de se socialiser en dehors de l'école.
@@ -503,6 +519,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
     }],
     ["SmokingBehindTheSupermarketWithYou",{
         support:"anime",
+        date: 20260924,
         title: "Smoking Behind The Supermarket With You",
         originalTitle: "スーパーの裏でヤニ吸うふたり",
         otherTitle: "Super no Ura de Yani Sū Futari - Behind the supermarket, smoking with you.",
@@ -513,7 +530,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
         episodes: 12,
         saisons: 1,
         status: "En cours",
-        date: "Eté 2026",
+        sortie: "Eté 2026",
         studio: "Asahi Production",
         diffusion: "Crunchyroll",
         synopsis: `À l'âge de 45 ans, Sasaki, employé de bureau, est fatigué par sa morne vie professionnelle. Son seul réconfort est la cigarette et le sourire amical de Yamada, la jeune caissière d'un supermarché où il a l'habitude de passer après son travail. Lorsque Sasaki ne trouve pas Yamada après une journée particulièrement éprouvante, il est interpellé par une femme charmante qui l'invite à fumer avec elle derrière le supermarché. Sasaki pense alors avoir trouvé une nouvelle compagne pour sa pause cigarette en la personne de Tayama, une femme cool et taquine, mais il ne se rend pas compte qu'il connaît peut-être déjà cette jeune femme...`,
@@ -523,6 +540,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
     }],
     ["Dandadan",{
         support:"anime",
+        date: 20250918,
         title: "Dandadan",
         originalTitle: "ダンダダン",
         otherTitle: false,
@@ -533,7 +551,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
         episodes: 24,
         saisons: 2,
         status: "En cours",
-        date: "Automne 2024",
+        sortie: "Automne 2024",
         studio: "Science SARU",
         diffusion: "ADN - Crunchyroll - Netflix - Amazon Prime Video",
         synopsis: `Momo Ayase et Ken Takakura sont deux lycéens que tout oppose. Tandis que la première ne croit qu'aux esprits, le second ne jure que par les extraterrestres. Incapables de se convaincre, ils se lancent alors un défi : Momo devra se rendre dans un hôpital où des créatures de l'espace sont censées se trouver et Ken dans un tunnel hanté... Or, chacun va faire une rencontre d'un autre genre qui va bouleverser leurs vies et lier leurs sorts. C'est le début d'une romance survoltée où l'occulte, le paranormal et le surnaturel se bousculent dans un chaos haletant !`,
@@ -546,6 +564,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
     }],
     ["WhisperingYouALoveSong",{
         support:"anime",
+        date: 20241228,
         title: "Whispering You a Love Song",
         originalTitle: "ささやくように恋を唄う",
         otherTitle: "Sasayaku Yō ni Koi wo Utau - Whisper Me A Love Song",
@@ -556,7 +575,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
         episodes: 12,
         saisons: 1,
         status: "En cours",
-        date: "Printemps 2024",
+        sortie: "Printemps 2024",
         studio: "CLOUDHEARTS, Yokohama Animation Lab",
         diffusion: "ADN",
         synopsis: `La pétillante et énergique Himari, étudiante en première année de lycée, tombe amoureuse d'une grande et belle fille nommée Yori après avoir entendu son groupe jouer pendant la cérémonie de rentrée. Incapable de retenir son enthousiasme, Himari décide de déclarer ses sentiments à Yori et, à la surprise d'Himari, elle lui répond qu'elle l'aime aussi ! Mais lorsque Himari se rend compte qu'elle ne ressent pas le même amour que Yori, elle commence à se demander ce que "l'amour" signifie vraiment...`,
@@ -566,6 +585,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
     }],
     ["DrStone",{
         support:"anime",
+        date: 20250925,
         title: "Dr.STONE",
         originalTitle: "ドクターストーン",
         otherTitle: false,
@@ -576,7 +596,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
         episodes: 95,
         saisons: 4,
         status: "Terminé",
-        date: "Eté 2019",
+        sortie: "Eté 2019",
         studio: "TMS Entertainment",
         diffusion: "Crunchyroll - Netflix - Amazon Prime Video",
         synopsis: `Un jour, une lumière brillante apparaît subitement dans le ciel pétrifiant en une fraction de seconde l'humanité entière. Des millénaires plus tard, Taiju parvient à briser son enveloppe de pierre et découvre un monde où le genre humain a disparu de la surface de la terre. Avec son ami Senku, ils décident de récréer la civilisation à partir de zéro !`,
@@ -591,6 +611,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
     }],
     ["Parasite",{
         support:"anime",
+        date: 20150325,
         title: "Parasite : La maxime",
         originalTitle: "寄生獣",
         otherTitle: "Kiseijū : Sei no Kakuritsu -  Parasyte : the maxim - Parasitic Beasts, Parasyte",
@@ -601,7 +622,7 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
         episodes: 24,
         saisons: 1,
         status: "Terminé",
-        date: "Automne 2014",
+        sortie: "Automne 2014",
         studio: "Madhouse",
         diffusion: "ADN - Netflix",
         synopsis: `Depuis des milliers d'années, l'Homme se trouve au sommet de la chaîne alimentaire. Jusqu'à ce jour où de mystérieuses sphères, abritant d'étranges parasites, se répandent un peu partout sur Terre. Rapidement, les entités prennent possession de certains habitants. Nul ne sait d'où elles viennent, mais ce qui semble certain, c'est qu'elles sont là pour débarrasser le monde de l'espèce humaine.
@@ -612,6 +633,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
     }],
     ["Citrus",{
         support:"anime",
+        date: 20180324,
         title: "Citrus",
         originalTitle: "シトラス",
         otherTitle: false,
@@ -622,7 +644,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
         episodes: 12,
         saisons: 1,
         status: "Terminé",
-        date: "Hiver 2018",
+        sortie: "Hiver 2018",
         studio: "Passione - Graphinica",
         diffusion: "Crunchyroll",
         synopsis: `Suite au remariage de sa mère, Yuzu apprend qu'elle va devoir changer de lycée pour aller dans un établissement réservé aux filles, lycée dans lequel se trouve également Mei, sa nouvelle demi-sœur. Si au début leur relation est relativement tendue à cause du sérieux de Mei, les choses vont bien changer entre elles quand cette dernière va montrer plus de signes d'affection envers Yuzu...`,
@@ -632,6 +654,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
     }],
     ["LoveHina",{
         support:"anime",
+        date: 20000927,
         title: "Love Hina",
         originalTitle: "ラブひな",
         otherTitle: "Kiseijū - Parasyte",
@@ -642,7 +665,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
         episodes: 24,
         saisons: 1,
         status: "Terminé",
-        date: "Eté 2000",
+        sortie: "Eté 2000",
         studio: "Déclic Images",
         diffusion: "?",
         synopsis: `À 20 ans, Keitarô Urashima s'accroche et tente d'entrer à Todai, la prestigieuse université de Tokyo. Il a déjà raté le concours d'admission par deux fois. Mais son principal souci est de trouver un logement pour ne pas retourner vivre avec ses parents, qui le poussent à abandonner Todai. Il se rend à la pension Hinata, qui appartient à sa grand-mère. Dans cette pension pour jeunes filles, les locataires le prennent pour un voyeur et lui en font voir de toutes les couleurs. Il est sauvé par sa tante, Haruka, qui habite près de la pension et vient voir les pensionnaires, en l'absence de la grand-mère partie faire le tour du monde.`,
@@ -652,6 +675,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
     }],
     ["RealGirl",{
         support:"anime",
+        date: 20190327,
         title: "Real Girl",
         originalTitle: "3D彼女",
         otherTitle: "3D Kanojo - 3D Girlfriend",
@@ -662,7 +686,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
         episodes: 24,
         saisons: 2,
         status: "Terminé",
-        date: "Printemps 2018",
+        sortie: "Printemps 2018",
         studio: "Hoods Entertainment",
         diffusion: "ADN",
         synopsis: `Hikari Tsutsui est un otaku tout ce qu'il y a de plus basique. Il déteste avoir affaire avec les autres et tout particulièrement avec sa classe. À cause de cela, il est moqué par ses camarades. Un jour, il doit nettoyer la piscine en compagnie d'Iroha Igarashi, une jolie fille. Elle est d'ailleurs tout ce qu'il déteste chez les vraies filles ; elle sèche les cours, n'a aucune amies du sexe féminin et bien plus encore. Pourtant, elle est gentille avec lui et l'aidera même quand il sera de nouveau embêté par des élèves. Iroha pourrait bien changer la vie monotone d'Hikari...`,
@@ -675,6 +699,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
     }],
     ["FairyTail",{
         support:"anime",
+        date: 20250105,
         title: "Fairy Tail",
         originalTitle: "フェアリーテイル",
         otherTitle: false,
@@ -685,7 +710,7 @@ Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement é
         episodes: 353,
         saisons: 10, 
         status: "En cours",
-        date: "Automne 2009",
+        sortie: "Automne 2009",
         studio: "A-1 Pictures - Satelight",
         diffusion: "ADN - Amazon Prime Video",
         synopsis: `Lucy est une jeune magicienne qui désire par dessus tout entrer dans une guilde magique.
@@ -711,6 +736,7 @@ C'est le début des aventures de Natsu et Lucy au sein du monde magique de Fairy
     }],
     ["Btooom",{
         support:"anime",
+        date: 20121220,
         title: "Btooom!",
         originalTitle: "ブトゥーム",
         otherTitle: "Btooom",
@@ -721,7 +747,7 @@ C'est le début des aventures de Natsu et Lucy au sein du monde magique de Fairy
         episodes: 12,
         saisons: 1, 
         status: "Terminé",
-        date: "Automne 2012",
+        sortie: "Automne 2012",
         studio: "Madhouse",
         diffusion: "ADN",
         synopsis: `BTOOOM! est un jeu online au succès mondial. Celui-ci consiste à battre l'équipe adverse avec des bombes pour seules armes.
@@ -732,6 +758,7 @@ Ryouta Sakamoto, 22 ans et sans emploi, est l'un de ces nombreux joueurs qui pas
     }],
     ["Charlotte",{
         support:"anime",
+        date: 20150926,
         title: "Charlotte",
         originalTitle: "シャーロット",
         otherTitle: false,
@@ -742,7 +769,7 @@ Ryouta Sakamoto, 22 ans et sans emploi, est l'un de ces nombreux joueurs qui pas
         episodes: 13,
         saisons: 1, 
         status: "Terminé",
-        date: "Été 2015",
+        sortie: "Été 2015",
         studio: "P.A. Works",
         diffusion: "?",
         synopsis: `L'histoire nous entraîne dans un monde où certains enfants, durant la puberté, développent des pouvoirs spéciaux. Ces enfants sont nommés ESPers. Yuu Otosaka, l'un d'eux, semble être en apparence un simple lycéen. Cependant ce dernier à la capacité de pouvoir se glisser et de contrôler entièrement le corps d'une personne, mais seulement durant cinq secondes. Yuu a utilisé cette compétence durant des années pour atteindre ses objectifs, ce qui lui a permis de pouvoir rentrer dans un lycée prestigieux.
@@ -754,6 +781,7 @@ Le Bureau des Élèves (BDE) de cette école, mené par la fameuse Nao, est char
     }],
     ["HiScoreGirl",{
         support:"anime",
+        date: 20191221,
         title: "Hi Score Girl",
         originalTitle: "ハイスコアガール",
         otherTitle: "High Score Girl",
@@ -764,7 +792,7 @@ Le Bureau des Élèves (BDE) de cette école, mené par la fameuse Nao, est char
         episodes: 24,
         saisons: 3, 
         status: "Terminé",
-        date: "Été 2018",
+        sortie: "Été 2018",
         studio: "J.C. Staff - Shogakukan Music & Digital Entertainment",
         diffusion: "Netflix",
         synopsis: `L'histoire se déroule au Japon, en 1991. Haruo Yaguchi est un élève de primaire passionné par les jeux vidéo. Il passe d'ailleurs une bonne partie de son temps dans les salles d'arcades.
@@ -779,6 +807,7 @@ Un jour, il croise par hasard une de ses camarades de classe, la populaire Akira
     }],
     ["BNA",{
         support:"anime",
+        date: 20200624,
         title: "BNA",
         originalTitle: "ビー・エヌ・エー",
         otherTitle: "Brand New Animal",
@@ -789,7 +818,7 @@ Un jour, il croise par hasard une de ses camarades de classe, la populaire Akira
         episodes: 12,
         saisons: 1,     
         status: "Terminé",
-        date: "Printemps 2020",
+        sortie: "Printemps 2020",
         studio: "Trigger",
         diffusion: "Netflix",
         synopsis: `Au XXIè siècle, alors que leur existence avait toujours été cachée, surgissent de l'ombre des animaux anthropomorphiques. Michiru, une jeune humaine, se transforme un jour en tanuki : choquée par sa nouvelle forme, elle se réfugie à Anima City, un gigantesque complexe créé il y a 10 ans dans l'optique d'accueillir les animaux-humains. Là, elle fait la rencontre de Shirou, un homme-loup qui dit détester les humains. À son contact, Michiru commence doucement à comprendre tous les enjeux qui entourent le mystère des hommes-animaux. Mais une énigme persiste : pourquoi s'est-elle transformée en tanuki, alors qu'elle avait toujours été humaine jusqu'ici ? Michiru la femme-tanuki et Shirou l'homme-loup se retrouvent bientôt happés au cœur d'un incident de grande envergure...`,
@@ -799,6 +828,7 @@ Un jour, il croise par hasard une de ses camarades de classe, la populaire Akira
     }],
     ["Gleipnir",{
         support:"anime",
+        date: 20200628,
         title: "Gleipnir",
         originalTitle: "グレイプニル",
         otherTitle: false,
@@ -809,7 +839,7 @@ Un jour, il croise par hasard une de ses camarades de classe, la populaire Akira
         episodes: 13,
         saisons: 1,     
         status: "Terminé",
-        date: "Printemps 2020",
+        sortie: "Printemps 2020",
         studio: "PINE JAM",
         diffusion: "Crunchyroll",
         synopsis: `Shûichi Kagaya, un lycéen jusqu'ici sans histoires devient subitement capable de se transformer en un gigantesque "monstre" aux capacités hors normes. Il sauve ainsi la vie de Claire coincée dans une maison en feu. Mais Claire découvre son secret et également qu'elle a la possibilité de se faufiler, par le biais d'une fermeture éclair, dans la mascotte incarnée par Shuîchi. Et si Shuîchi n'était pas le seul dans ce cas !? Qu'est-ce qui attend ces deux lycéens désormais liés par le destin !? Leur plus grand combat est sur le point de commencer !! Ne faisons plus qu'un... à la vie, à la mort !`,

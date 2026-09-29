@@ -51,10 +51,10 @@ console.log(result);
 // ----------------------------------Afficher les cards --------------------------------------------------------------
 
 result.map((resultObject)=>{
-    if(resultObject[1].support == "manga"){
-        createCardManga(resultObject,gallery);
-    }else{
+    if(resultObject[1].support == "anime"){
         createCardAnime(resultObject,gallery);
+    }else{
+        createCardManga(resultObject,gallery);
     }
 });
 

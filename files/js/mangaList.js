@@ -259,6 +259,7 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
     }],
     ["SPYxFAMILY",{
         support:"manga",
+        date: 20260423,
         title: "SPY×FAMILY",
         originalTitle: " スパイファミリー",
         otherTitle: false,
@@ -298,6 +299,7 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
     }],
     ["SteinsGate",{
         support:"manga",
+        date: 20201203,
         title: "Steins;Gate",
         originalTitle: " シュタインズ・ゲート",
         otherTitle: false,
@@ -323,6 +325,7 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
     }],
     ["BlueBox",{
         support:"manga",
+        date: 20260604,
         title: "Blue Box",
         originalTitle: "アオのハコ",
         otherTitle: "Ao no Hako",
@@ -373,6 +376,7 @@ Un événement inattendu va cependant bouleverser leur quotidien : Chinatsu se r
     }],
     ["Bloom",{
         support:"manga",
+        date: 20240409,
         title: "Bloom",
         originalTitle: "薫る花は凛と咲く",
         otherTitle: "Kaoru Hana wa Rin to Saku - The Fragrant Flower Blooms With Dignity - Kaoruhana",
@@ -420,6 +424,7 @@ Donnant régulièrement un coup de main à la pâtisserie familiale, Rintarô Ts
     }],
     ["LaVoieDuTablier",{
         support:"manga",
+        date: 20260522,
         title: "La Voie du Tablier",
         originalTitle: "極主夫道",
         otherTitle: "Gokushufudō - The Way of the Househusband",
@@ -460,6 +465,7 @@ Mais malgré son adorable tablier, il ne peut totalement gommer son air patibula
     }],
     ["RollOverAndDie",{
         support:"manga",
+        date: 20260821,
         title: "Roll Over and Die",
         originalTitle: "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
         otherTitle: `Jamais tu ne vaincras le Roi démon ! - "Omae Gotoki ga Maō ni Kateru to Omou na" to Yūsha Party wo Tsuihō Sareta no de, Ōto de Kimama ni Kurashitai - ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!`,
@@ -491,6 +497,7 @@ C'est alors que quelque chose de nouveau se réveille en elle.`,
     }],
     ["Mashle",{
         support:"manga",
+        date: 20240221,
         title: "Mashle",
         originalTitle: "マッシュル",
         otherTitle: "Mashle - Magic and Muscles",
@@ -533,6 +540,7 @@ La magie n'a plus qu'à bien se tenir : avec sa musculature affûtée et sa forc
     }],
     ["Orange",{
         support:"manga",
+        date: 20221117,
         title: "Orange",
         originalTitle: "オレンジ",
         otherTitle: false,
@@ -563,6 +571,7 @@ Dans la lettre, la Naho du futur parle de ses nombreux regrets, sous-entendant �
     }],
     ["Doubt",{
         support:"manga",
+        date: 20100610,
         title: "Doubt",
         originalTitle: "ダウト",
         otherTitle: false,
@@ -592,6 +601,7 @@ Un loup se cache parmi eux. Et il faudra le démasquer avant d'êtres dévorés.
     }],
     ["Secret",{
         support:"manga",
+        date: 20160310,
         title: "Secret",
         originalTitle: "シークレット",
         otherTitle: false,
@@ -619,6 +629,7 @@ Les élèves débutent alors leur enquête.`,
     }],
     ["Judge",{
         support:"manga",
+        date: 20130124,
         title: "Judge",
         originalTitle: "审判",
         otherTitle: false,
@@ -648,6 +659,7 @@ Il se réveille alors menotté, dans un endroit sombre et inconnu et avec un mas
     }],
     ["DeadCompany",{
         support:"manga",
+        date: 20210506,
         title: "Dead Company",
         originalTitle: "デッドカンパニー",
         otherTitle: false,
@@ -674,6 +686,7 @@ Le jeune homme est ravi de travailler dans un environnement décontracté, chale
     }],
     ["KingsGame",{
         support:"manga",
+        date: 20170511,
         title: "King's Game",
         originalTitle: "王様ゲーム",
         otherTitle: "Ō-sama",
@@ -724,6 +737,7 @@ Au début, tous se prennent au jeu, mais rapidement, les exigences du roi se fon
     }],
     ["LeDilemmeDeToki",{
         support:"manga",
+        date: 20190821,
         title: "Le dilemme de Toki",
         originalTitle: "選択のトキ",
         otherTitle: "Sentaku no Toki",
@@ -749,6 +763,7 @@ Au début, tous se prennent au jeu, mais rapidement, les exigences du roi se fon
     }],
     ["DiscrètementBalèze",{
         support:"manga",
+        date: 0,
         title: "Jimi na Kensei wa Soredemo Saikyō desu",
         originalTitle: "地味な剣聖はそれでも最強です",
         otherTitle: "The Simple-Looking Sword Saint is Nevertheless the Strongest",
@@ -782,6 +797,7 @@ Au début, tous se prennent au jeu, mais rapidement, les exigences du roi se fon
     }],
     ["NazoNoKanojoX",{
         support:"manga",
+        date: 0,
         title: "Nazo no Kanojo X",
         originalTitle: "謎の彼女X",
         otherTitle: "Mysterious Girlfriend X",
@@ -817,6 +833,7 @@ Quand celle-ci rentre chez elle, une idée pour le moins étrange traverse l'esp
     }],
     ["MiraiNikki",{
         support:"manga",
+        date: 20111019,
         title: "Mirai Nikki",
         originalTitle: "未来日記",
         otherTitle: "Mirai Nikki, Le journal du futur - Future Diary",
@@ -853,6 +870,7 @@ Un jour, Yukiteru va découvrir que ce n'est plus lui qui écrit dans son télé
     }],
     ["MushokuTensei",{
         support:"manga",
+        date: 20260910,
         title: "Mushoku Tensei",
         originalTitle: "無職転生 ～異世界行ったら本気だす～",
         otherTitle: "Mushoku Tensei, Isekai Ittara Honki Dasu - Mushoku Tensei, Jobless Reincarnation",
@@ -861,7 +879,7 @@ Un jour, Yukiteru va découvrir que ce n'est plus lui qui écrit dans son télé
         theme: ["Autre monde","Harem","Magie","Réincarnation"],
         VO: 29,
         statusVO: "En cours",
-        VF: 23,
+        VF: 24,
         statusVF: "En cours",
         origine: "Japon - 2014",
         sortieVF: "2017",
@@ -910,6 +928,7 @@ Bien décidé à faire quelque chose de sa nouvelle vie en tant que Rudeus, il v
     }],
     ["SoImSpiderSoWhat",{
         support:"manga",
+        date: 20250917,
         title: "So I'm a Spider, So What?",
         originalTitle: "蜘蛛ですが、なにか?",
         otherTitle: "Kumo Desu ga, Nani ka?",
@@ -949,6 +968,7 @@ Qu'on me donne la soluce pour réchapper de cet enfer ! Vite, tant qu'il me rest
     }],
     ["SaikiKusuoNoPsyNan",{
         support:"manga",
+        date: 0,
         title: "Saiki Kusuo no Ψ Nan",
         originalTitle: " 斉木楠雄のサイ難",
         otherTitle: "Saiki Kusuo no PSY Nan - Saiki Kusuo no Sainan -  The Disastrous Life of Saiki K.",
@@ -997,6 +1017,7 @@ Qu'on me donne la soluce pour réchapper de cet enfer ! Vite, tant qu'il me rest
     }],
     ["JunLaVoixDuCoeur",{
         support:"manga",
+        date: 0,
         title: "Jun, la voix du cœur",
         originalTitle: "心が叫びたがってるんだ。",
         otherTitle:  "Kokoro ga Sakebitagatterun Da. -  The Anthem of the Heart - Beautiful Word, Beautiful World - Kokosake",
@@ -1024,6 +1045,7 @@ Ainsi, lorsqu'ils étaient au collège, Takumi et Natsuki sont brièvement sorti
     }],
     ["Nekuyan",{
         support:"manga",
+        date: 0,
         title: "Nekuyan",
         originalTitle: "女装してめんどくさい事になってるネクラとヤンキーの両片想い",
         otherTitle:  "Josou-shite Mendokusai Koto ni Natteru Nekura to Yankee no Ryou Kataomoi - Crossplay Love: Otaku x Punk",
@@ -1061,6 +1083,7 @@ Ainsi, lorsqu'ils étaient au collège, Takumi et Natsuki sont brièvement sorti
     }],
     ["Horimiya",{
         support:"manga",
+        date: 20240515,
         title: "Horimiya",
         originalTitle: "ホリミヤ",
         otherTitle:  "Hori-Miya",
@@ -1101,6 +1124,7 @@ Que va-t-il arriver lorsque chacun de ces deux lycéens découvre la face caché
     }],
     ["SmokingBehindTheSupermarketWithYou",{
         support:"manga",
+        date: 20260515,
         title: "Smoking Behind The Supermarket With You",
         originalTitle: "スーパーの裏でヤニ吸うふたり",
         otherTitle: "Super no Ura de Yani Sū Futari - Behind the supermarket, smoking with you.",
@@ -1133,6 +1157,7 @@ Un soir, alors qu'il passe par le magasin, il ne la voit pas en service. Soudain
     }],
     ["Dandadan",{
         support:"manga",
+        date: 20260701,
         title: "Dandadan",
         originalTitle: "ダンダダン",
         otherTitle: false,
@@ -1180,6 +1205,7 @@ Un soir, alors qu'il passe par le magasin, il ne la voit pas en service. Soudain
     }],
     ["WhisperingYouALoveSong",{
         support:"manga",
+        date: 20250620,
         title: "Whispering You a Love Song",
         originalTitle: "ささやくように恋を唄う",
         otherTitle: "Sasayaku Yō ni Koi wo Utau - Whisper Me A Love Song",
@@ -1214,6 +1240,7 @@ Un soir, alors qu'il passe par le magasin, il ne la voit pas en service. Soudain
     }],
     ["DrStone",{
         support:"manga",
+        date: 20250416,
         title: "Dr.STONE",
         originalTitle: "ドクターストーン",
         otherTitle: false,
@@ -1263,6 +1290,7 @@ Un soir, alors qu'il passe par le magasin, il ne la voit pas en service. Soudain
     }],
     ["Parasite",{
         support:"manga",
+        date: 20040819,
         title: "Parasite",
         originalTitle: "寄生獣",
         otherTitle: "Kiseijū - Parasyte",
@@ -1296,6 +1324,7 @@ Mais peu de temps après l'apparition de ces parasites, d'horribles meurtres son
     }],
     ["Citrus",{
         support:"manga",
+        date: 20260821,
         title: "Citrus",
         originalTitle: "シトラス",
         otherTitle: false,
@@ -1338,6 +1367,7 @@ Mais peu de temps après l'apparition de ces parasites, d'horribles meurtres son
     }],
     ["LoveHina",{
         support:"manga",
+        date: 20040420,
         title: "Love Hina",
         originalTitle: "ラブひな",
         otherTitle: "Kiseijū - Parasyte",
@@ -1375,6 +1405,7 @@ Après un mauvais accueil de la part des pensionnaires et apprenant que sa grand
     }],
     ["RealGirl",{
         support:"manga",
+        date: 20201118,
         title: "Real Girl",
         originalTitle: "3D彼女",
         otherTitle: "3D Kanojo - 3D Girlfriend",
@@ -1409,6 +1440,7 @@ Après un mauvais accueil de la part des pensionnaires et apprenant que sa grand
     }],
     ["FairyTail",{
         support:"manga",
+        date: 20260819,
         title: "Fairy Tail",
         originalTitle: "フェアリーテイル",
         otherTitle: false,
@@ -1523,6 +1555,7 @@ Après un mauvais accueil de la part des pensionnaires et apprenant que sa grand
     }],
     ["Btooom",{
         support:"manga",
+        date: 20190515,
         title: "Btooom!",
         originalTitle: "ブトゥーム",
         otherTitle: "Btooom",
@@ -1574,6 +1607,7 @@ Embarquez vous aussi dans ce qui pourrait bien être votre dernière partie. A v
     }],
     ["Charlotte",{
         support:"manga",
+        date: 0,
         title: "Charlotte",
         originalTitle: "シャーロット",
         otherTitle: false,
@@ -1604,6 +1638,7 @@ Le conseil des étudiants de cette école, mené par la fameuse Nao, est chargé
     }],
     ["HiScoreGirl",{
         support:"manga",
+        date: 20210506,
         title: "Hi Score Girl",
         originalTitle: "ハイスコアガール",
         otherTitle: "High Score Girl",
@@ -1634,8 +1669,32 @@ Le conseil des étudiants de cette école, mené par la fameuse Nao, est chargé
             {image: "../img/HiScoreGirl/T10.jpg" , synopsis: `Haruo est bien décidé à avouer ses sentiments à Ono, mais il veut avant cela régler un détail : la battre en duel sur une borne d'arcade. Dans cette optique, ils se rendent ensemble à Osaka pour participer à un grand tournoi de jeu de combat. Mais alors qu'ils n'ont jamais été aussi proches, et avant même de pouvoir s'affronter, Ono se fait éliminer dès le premier match ! La fin de leur rivalité sonnera-t-elle la fin de leur relation ? Le dernier round sera décisif !`},
         ]],
     }],
+    ["BNA",{
+        support:"manga",
+        date: 0,
+        title: "BNA",
+        originalTitle: "ビー・エヌ・エー",
+        otherTitle: "Brand New Animal",
+        class: "Shonen",
+        genre: ["Action","Comédie","Fantastique"],
+        theme: ["Animaux","Homme-Bête","Mystère","Société"],
+        VO: 1,
+        statusVO: "Terminé",
+        VF: "",
+        statusVF: "Non commercialisé",
+        origine: "Japon - 2020",
+        sortieVF: false,
+        editeur: "Shueisha",
+        auteur: "Asano",
+        synopsis: `Une société dans laquelle les humains et les bêtes coexistent.
+Un jour, Michiru Kagemori, une jeune lycéenne humaine devient un raton laveur. Affolée par sa soudaine transformation, Michiru part se réfugier à Anima City, une ville où les bêtes cherchent un moyen de redevenir humains.`,
+        image: "../img/BNA/T1.jpg",
+        background: "../img/BNA/Bg.jpg",
+        tomes: false,
+    }],
     ["Gleipnir",{
         support:"manga",
+        date: 20240329,
         title: "Gleipnir",
         originalTitle: "グレイプニル",
         otherTitle: false,
