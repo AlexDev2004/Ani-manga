@@ -1,6 +1,7 @@
 const mangaList=[
     ["swordArtOnline",{
         support:"manga",
+        date: 20230827,
         title: "Sword Art Online",
         originalTitle: "ソードアート・オンライン",
         otherTitle: false,
@@ -54,6 +55,7 @@ const mangaList=[
     }],
     ["TonikakuKawaii",{
         support:"manga",
+        date: 20251217,
         title: "Tonikaku Kawaii",
         originalTitle: "トニカクカワイイ",
         otherTitle: "Fly Me to The Moon",
@@ -119,6 +121,7 @@ Alors qu'il entame sa 19e année, un personne vient sonner à la porte de chez l
     }],
     ["DeathNote",{
         support:"manga",
+        date: 20081003,
         title: "Death Note",
         originalTitle: "デスノート",
         otherTitle: false,
@@ -155,6 +158,7 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
     }],
     ["LookBack",{
         support:"manga",
+        date: 20220309,
         title: "Look Back",
         originalTitle: "ルックバック",
         otherTitle: false,
@@ -176,6 +180,7 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
     }],
     ["TheAncientMagusBride",{
         support:"manga",
+        date: 20260430,
         title: "The Ancient Magus Bride",
         originalTitle: "魔法使いの嫁",
         otherTitle: "Mahō Tsukai no Yome",
@@ -223,6 +228,7 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
     }],
     ["AccelWorld",{
         support:"manga",
+        date: 20180316,
         title: "Accel World",
         originalTitle: "アクセルワールド",
         otherTitle: false,

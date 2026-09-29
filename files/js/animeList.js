@@ -1,6 +1,7 @@
 const animeList=[
     ["swordArtOnline",{
         support:"anime",
+        date: 20200919,
         title: "Sword Art Online",
         originalTitle: "ソードアート・オンライン",
         otherTitle: false,
@@ -25,6 +26,7 @@ const animeList=[
     }],
     ["TonikakuKawaii",{
         support:"anime",
+        date: 20230823,
         title: "Tonikaku Kawaii",
         originalTitle: "トニカクカワイイ",
         otherTitle: "Fly Me to The Moon",
@@ -47,10 +49,12 @@ Plusieurs années après cet événement, Tsukasa vient sonner chez Nasa pour te
         listSaisons: [
             {title: "Saison 1", image: "../img/TonikakuKawaii/S1.jpg", synopsis: `Après avoir frôlé la mort dans un accident, Nasa rencontre Tsukasa, une mystérieuse jeune fille dont il tombe immédiatement amoureux. Lorsqu'il lui avoue ses sentiments, celle-ci accepte de sortir avec lui à une seule condition : qu'ils se marient. Quelques années plus tard, Tsukasa réapparaît à sa porte et tient sa promesse. À peine réunis, les deux jeunes mariés découvrent alors ensemble les joies et les embarras de la vie de couple, tandis que Nasa cherche encore à percer les nombreux mystères qui entourent sa nouvelle épouse.`},
             {title: "Saison 2", image: "../img/TonikakuKawaii/S2.jpg", synopsis: `Désormais bien installés dans leur vie de jeunes mariés, Nasa et Tsukasa continuent de découvrir les petits bonheurs du quotidien à deux. Entre rendez-vous amoureux, nouvelles rencontres et moments passés avec leurs proches, leur relation devient peu à peu plus profonde. La question d'une cérémonie de mariage commence également à se poser. Mais derrière cette vie paisible, Tsukasa conserve encore des secrets sur son passé, tandis que Nasa réalise chaque jour un peu plus ce que signifie partager sa vie avec celle qu'il aime.`},
+            {title: "High School Days", image: "../img/TonikakuKawaii/S2.5.jpg", synopsis: `Il s'agit d'une série d'ONA basés sur la série Tonikaku Kawaii. L'histoire est inédite. Nasa va donner un cours dans un lycée pour fille, ce qui inquiète Tsukasa.`},
         ],
     }],
     ["DeathNote",{
         support:"anime",
+        date: 20070627,
         title: "Death Note",
         originalTitle: "デスノート",
         otherTitle: false,
@@ -74,6 +78,7 @@ Cependant, qui est-il pour juger les gens ? Il devient donc le pire criminel rec
     }],
     ["AccelWorld",{
         support:"anime",
+        date: 20120922,
         title: "Accel World",
         originalTitle: "アクセル・ワールド",
         otherTitle: false,
@@ -98,6 +103,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
     }],
     ["LookBack",{
         support:"anime",
+        date: 20240628,
         title: "Look Back",
         originalTitle: "ルックバック",
         otherTitle: false,
@@ -118,6 +124,7 @@ Mais pour conserver ce pouvoir, il faut combattre, et gagner des points. L'avent
     }],
     ["TheAncientMagusBride",{
         support:"anime",
+        date: 20230622,
         title: "The Ancient Magus Bride",
         originalTitle: "魔法使いの嫁",
         otherTitle:  "Mahō Tsukai no Yome",
