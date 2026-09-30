@@ -124,6 +124,20 @@ cardTomeTab.map((card , i)=>{
 });
 
 
+// --------------- Récupérer les liens du bloc info --------------------------------
+
+const linkList = document.querySelectorAll("#infos a");
+const linkListTab = Array.from(linkList);
+console.log(linkListTab);
+linkListTab.map((link , i)=>{
+    link.addEventListener("click",()=>{
+        if(link.getAttribute("class") == "genre"){
+            localStorage.setItem("searchAction","searchGender");
+            localStorage.setItem("searchGender",link.textContent);
+        }
+    })
+})
+
 // --------------- Passer à la version manga ------------------------------------------
 
 localStorage.setItem("mangaCardClicked",titleSelect);
