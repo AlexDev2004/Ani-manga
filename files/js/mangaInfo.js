@@ -42,21 +42,30 @@ if(mangaSelect.otherTitle != false){
     otherTitle.innerHTML = `<strong>Titres alternatifs :</strong> ${mangaSelect.otherTitle}`;
 }
 origine.innerHTML =  `<strong>Origine :</strong> ${mangaSelect.origine}`;
+if(mangaSelect.sortieVF != false){
 sortieVF.innerHTML =  `<strong>Sortie en VF :</strong> ${mangaSelect.sortieVF}`;
-auteur.innerHTML =  `<strong>Auteur(s) :</strong> ${mangaSelect.auteur}`;
-classif.innerHTML =  `<strong>Classification :</strong> <a href="search.html">${mangaSelect.class}</a>`;
+}
+
+let auteurLink = [];
+mangaSelect.auteur.map((auteur)=>{auteurLink.push(`<a class="auteur" href="autor.html">${auteur}</a>`)});
+auteur.innerHTML = `<strong>Auteur(s) :</strong> ${auteurLink.join(" - ")}`;
+
+classif.innerHTML =  `<strong>Classification :</strong> <a class="class" href="search.html">${mangaSelect.class}</a>`;
 
 let genreLink = [];
-mangaSelect.genre.map((genre)=>{genreLink.push(`<a href="search.html">${genre}</a>`)});
+mangaSelect.genre.map((genre)=>{genreLink.push(`<a class="genre" href="search.html">${genre}</a>`)});
 genre.innerHTML = `<strong>Genres :</strong> ${genreLink.join(" - ")}`;
 
 let themeLink = [];
-mangaSelect.theme.map((theme)=>{themeLink.push(`<a href="search.html">${theme}</a>`)});
+mangaSelect.theme.map((theme)=>{themeLink.push(`<a class="theme" href="search.html">${theme}</a>`)});
 theme.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
 
 VF.innerHTML =  `<strong>Volumes VF :</strong> ${mangaSelect.VF} (${mangaSelect.statusVF})`;
 VO.innerHTML =  `<strong>Volumes VO :</strong> ${mangaSelect.VO} (${mangaSelect.statusVO})`;
-editeur.innerHTML =  `<strong>Editeur :</strong> ${mangaSelect.editeur}`;
+
+let editeurLink = [];
+mangaSelect.editeur.map((editeur)=>{editeurLink.push(`<a class="editeur" href="autor.html">${editeur}</a>`)});
+editeur.innerHTML = `<strong>Editeur :</strong> ${editeurLink.join(" - ")}`;
 
 blocInfo.append(imagePrincipale , infos);
 infos.append(originalTitle,otherTitle,origine,sortieVF,auteur,classif,genre,theme,VF,VO,editeur);
@@ -133,6 +142,20 @@ cardTomeTab.map((card , i)=>{
     });
 });
 
+
+// --------------- Récupérer les liens du bloc info --------------------------------
+
+const linkList = document.querySelectorAll("#infos a");
+const linkListTab = Array.from(linkList);
+console.log(linkListTab);
+linkListTab.map((link , i)=>{
+    link.addEventListener("click",()=>{
+        if(link.getAttribute("class") == "genre"){
+            localStorage.setItem("searchAction","searchGender");
+            localStorage.setItem("searchGender",link.textContent);
+        }
+    })
+})
 
 
 // --------------- Passer à la version Animé ------------------------------------------

@@ -28,16 +28,16 @@ function createCardManga(mangaPos,target){
     const title = document.createElement("h2");
     title.innerHTML = `${manga.title}`;
     const classif = document.createElement("p");
-    classif.innerHTML = `<strong>Classification :</strong> <a href="search.html">${manga.class}</a>`;
+    classif.innerHTML = `<strong>Classification :</strong> ${manga.class}`;
 
     const genres = document.createElement("p");
     let genreLink = [];
-    manga.genre.map((genre)=>{genreLink.push(`<a href="search.html">${genre}</a>`)});
+    manga.genre.map((genre)=>{genreLink.push(genre)});
     genres.innerHTML = `<strong>Genres :</strong> ${genreLink.join(" - ")}`;
 
     const themes = document.createElement("p");
     let themeLink = [];
-    manga.theme.map((theme)=>{themeLink.push(`<a href="search.html">${theme}</a>`)})
+    manga.theme.map((theme)=>{themeLink.push(theme)})
     themes.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
     
     const tomeVF = document.createElement("p");
@@ -76,16 +76,16 @@ function createCardAnime(animePos,target){
     const title = document.createElement("h2");
     title.innerHTML = `${anime.title}`;
     const classif = document.createElement("p");
-    classif.innerHTML = `<strong>Classification :</strong> <a href="search.html">${anime.class}</a>`;
+    classif.innerHTML = `<strong>Classification :</strong>${anime.class}`;
 
     const genres = document.createElement("p");
     let genreLink = [];
-    anime.genre.map((genre)=>{genreLink.push(`<a href="search.html">${genre}</a>`)});
+    anime.genre.map((genre)=>{genreLink.push(genre)});
     genres.innerHTML = `<strong>Genres :</strong> ${genreLink.join(" - ")}`;
 
     const themes = document.createElement("p");
     let themeLink = [];
-    anime.theme.map((theme)=>{themeLink.push(`<a href="search.html">${theme}</a>`)})
+    anime.theme.map((theme)=>{themeLink.push(theme)})
     themes.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
     
     const episodes = document.createElement("p");

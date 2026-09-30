@@ -43,21 +43,29 @@ if(animeSelect.otherTitle != false){
 }
 type.innerHTML =  `<strong>Type :</strong> ${animeSelect.type}`;
 date.innerHTML =  `<strong>Date :</strong> ${animeSelect.sortie}`;
-studio.innerHTML =  `<strong>Studio :</strong> ${animeSelect.studio}`;
-classif.innerHTML =  `<strong>Classification :</strong> <a href="search.html">${animeSelect.class}</a>`;
+
+let studioLink = [];
+animeSelect.studio.map((studio)=>{studioLink.push(`<a class="studio" href="autor.html">${studio}</a>`)});
+studio.innerHTML = `<strong>Studio :</strong> ${studioLink.join(" - ")}`;
+
+classif.innerHTML =  `<strong>Classification :</strong> <a class="class" href="search.html">${animeSelect.class}</a>`;
 
 let genreLink = [];
-animeSelect.genre.map((genre)=>{genreLink.push(`<a href="search.html">${genre}</a>`)});
+animeSelect.genre.map((genre)=>{genreLink.push(`<a class="genre" href="search.html">${genre}</a>`)});
 genre.innerHTML = `<strong>Genres :</strong> ${genreLink.join(" - ")}`;
 
 let themeLink = [];
-animeSelect.theme.map((theme)=>{themeLink.push(`<a href="search.html">${theme}</a>`)});
+animeSelect.theme.map((theme)=>{themeLink.push(`<a class="theme" href="search.html">${theme}</a>`)});
 theme.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
+
 episodes.innerHTML =  `<strong>Episodes :</strong> ${animeSelect.episodes}`;
 if(animeSelect.listSaisons != false){
     saisons.innerHTML = `<strong>Saisons :</strong> ${animeSelect.saisons}`;
 }
-diffusion.innerHTML =  `<strong>Diffusion :</strong> ${animeSelect.diffusion}`;
+
+let diffusionLink = [];
+animeSelect.diffusion.map((diffusion)=>{diffusionLink.push(`<a class="diffusion" href="autor.html">${diffusion}</a>`)});
+diffusion.innerHTML = `<strong>Diffusion :</strong> ${diffusionLink.join(" - ")}`;
 
 blocInfo.append(imagePrincipale , infos);
 infos.append(originalTitle,otherTitle,episodes,saisons,classif,genre,theme,date,type,studio,diffusion);
