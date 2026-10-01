@@ -39,6 +39,40 @@ if(action == "searchGender"){
     });
 }
 
+//------------------------------- Tri par theme ---------------------------------------------------------------------
+if(action == "searchTheme"){
+    recherche = localStorage.getItem("searchTheme");
+    console.log(recherche); 
+    
+    mangaOrdered.map((manga)=>{
+        if(manga[1].theme.includes(recherche)){
+            result.push(manga);
+        }
+    });
+    animeOrdered.map((anime)=>{
+        if(anime[1].theme.includes(recherche)){
+            result.push(anime);
+        }
+    });
+}
+
+//------------------------------- Tri par classif ---------------------------------------------------------------------
+if(action == "searchClass"){
+    recherche = localStorage.getItem("searchClass");
+    console.log(recherche); 
+    
+    mangaOrdered.map((manga)=>{
+        if(manga[1].class.includes(recherche)){
+            result.push(manga);
+        }
+    });
+    animeOrdered.map((anime)=>{
+        if(anime[1].class.includes(recherche)){
+            result.push(anime);
+        }
+    });
+}
+
 // ------------------------------ Trier le tableau par ordre alphabétique -----------------------------------------------
 const resultOrdered = result.sort((a, b) =>
     a[0].localeCompare(b[0], undefined, {

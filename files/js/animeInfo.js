@@ -135,6 +135,23 @@ linkListTab.map((link , i)=>{
             localStorage.setItem("searchAction","searchGender");
             localStorage.setItem("searchGender",link.textContent);
         }
+        if(link.getAttribute("class") == "theme"){
+            localStorage.setItem("searchAction","searchTheme");
+            localStorage.setItem("searchTheme",link.textContent);
+        }
+        if(link.getAttribute("class") == "class"){
+            localStorage.setItem("searchAction","searchClass");
+            localStorage.setItem("searchClass",link.textContent);
+        }
+
+        if(link.getAttribute("class") == "studio"){
+            localStorage.setItem("autorAction","autorStudio");
+            localStorage.setItem("autorStudio",link.textContent);
+        }
+        if(link.getAttribute("class") == "diffusion"){
+            localStorage.setItem("autorAction","autorDiffusion");
+            localStorage.setItem("autorDiffusion",link.textContent);
+        }
     })
 })
 
