@@ -28,7 +28,7 @@ const themes = [
     "Gastronomie","Gore","Guerre",
     "Harem","Homme au foyer","Homme-Bête",
     "Identité","Jeux-vidéo","LGBT+",
-    "Magie","Maid","Malédiction","Mariage","Médium","Mensonges","Monde virtuel","Mort","Monstres","Musique","Mystère",
+    "Magie","Maid","Malédiction","Mariage","Mature","Médium","Mensonges","Monde virtuel","Mort","Monstres","Musique","Mystère",
     "Organnisations secrètes","Otaku",
     "Poésie","Police","Politique","Post-apocalyptique","Pouvoirs psychiques",
     "Réincarnation",

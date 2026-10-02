@@ -861,7 +861,7 @@ Un jour, il croise par hasard une de ses camarades de classe, la populaire Akira
         saisons: 1,     
         status: "Terminé",
         sortie: "Automne 2023",
-        studio: ["CompTown","Geek Toys"],
+        studio: ["CompTown","Geek Toys" ],
         diffusion: ["Crunchyroll"],
         synopsis: `L'histoire nous entraîne au cœur du quotidien d'un couple d'âge moyen qui, ne pouvant faire d'enfant, décide d'adopter. Ils recueillent Hitori, un jeune garçon particulièrement beau mais qui, pour protéger sa famille, lui cache un secret important : il a un jumeau !`,
         image: "../img/MigiEtDali/S1.jpg",
