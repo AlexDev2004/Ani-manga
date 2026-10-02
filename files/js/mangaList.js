@@ -1729,6 +1729,37 @@ Un jour, Michiru Kagemori, une jeune lycéenne humaine devient un raton laveur. 
             {image: "../img/Gleipnir/T14.jpg" , synopsis: `Je remets le destin de ce monde entre tes mains. Libre à toi de choisir ce que tu souhaite ! Des "monstres" aux pouvoirs divers et variés, obtenus grâce à la puissance de médailles ont changé le monde en se rencontrant, se mélangeant et se battant entre eux. De leur côté, même face à de redoutables ennemis, Shûichi et Claire continuent d'avancer vers l'avenir qu'ils espèrent. Comment sera le monde après la fin de cette bataille ?`},
         ]],
     }],
+    ["MigiEtDali",{
+        support:"manga",
+        date: 20250703,
+        title: "Migi et Dali",
+        originalTitle: "ミギとダリ",
+        otherTitle: "Migi & Dali - Migi to Dari",
+        class: "Seinen",
+        genre: ["Comédie","Slice of Life"],
+        theme: ["Famille","Secrets"],
+        VO: 7,
+        statusVO: "Terminé",
+        VF: 7,
+        statusVF: "Terminé",
+        origine: "Japon - 2017",
+        sortieVF: "2024",
+        editeur: ["komikku"],
+        auteur: ["Sano Nami"],
+        synopsis: `Dans le village d'Origon, situé au cœur d'une ville nouvelle construite à l'image des banlieues pavillonnaires américaines, vit une frange de la population plutôt aisée. Un beau jour, "un" garçon fait son arrivée dans le village...
+Celui-ci, appelé Hitori, est adopté par la famille Sonoyama, qui n'a pas d'enfants. Rapidement, le couple tombe sous le charme de ce jeune homme à l'intelligence et à la beauté exceptionnelles, sans toutefois savoir que celui-ci cache un grand secret ainsi que de terribles desseins...`,
+        image: "../img/MigiEtDali/T1.jpg",
+        background: "../img/MigiEtDali/Bg.jpg",
+        tomes: [false,[
+            {image: "../img/MigiEtDali/T1.jpg" , synopsis: `Dans le village d'Origon, situé au cœur d'une ville nouvelle construite à l'image des banlieues pavillonnaires américaines, vit une frange de la population plutôt aisée. Un beau jour, "un" garçon fait son arrivée dans le village... Celui-ci, appelé Hitori, est adopté par la famille Sonoyama, qui n'a pas d'enfants. Rapidement, le couple tombe sous le charme de ce jeune homme à l'intelligence et à la beauté exceptionnelles, sans toutefois savoir que celui-ci cache un grand secret ainsi que de terribles desseins...`},
+            {image: "../img/MigiEtDali/T2.jpg" , synopsis: `1990, arrondissement nord de la municipalité de Kobe. Dans le village d'Origon vivent Migi et Dali, des jumeaux qui se sont infiltrés chez un vieux couple en se faisant passer pour un seul et même garçon : Hitori Sonoyama. Le but de ce subterfuge ? Débusquer la personne qui a assassiné leur mère ici il y a de cela sept ans, pour venger sa mort. Afin d'accomplir leur objectif, les deux garçons se décident à fouiller toutes les maisons du quartier...`},
+            {image: "../img/MigiEtDali/T3.jpg" , synopsis: ``},
+            {image: "../img/MigiEtDali/T4.jpg" , synopsis: `Catastrophe : Migi se retrouve prisonnier des Ichijô, la famille que les jumeaux suspectent d'avoir tué leur mère. Pour la première fois de leur vie, ils vont devoir agir chacun de leur côté afin de découvrir les sombres secrets que cache cette demeure qui leur sert de geôle...`},
+            {image: "../img/MigiEtDali/T5.jpg" , synopsis: `Après avoir découvert qu'Eiji était responsable de la mort de sa mère, Dali entend bien avoir le fin mot de l'histoire et se venger, avec l'aide de Migi ou non ! Pendant ce temps, Migi joue aux détectives pour retrouver la trace de sa bien-aimée Sally !`},
+            {image: "../img/MigiEtDali/T6.jpg" , synopsis: `Eiji finit blessé en poussant à temps Migi de la citrouille qui lui tombait dessus. Après sa sortie, Dali va lui rendre visite sous les traits de Sally afin de savoir pourquoi il a aidé Hitori. C'est alors qu'il apprend son terrible secret...`},
+            {image: "../img/MigiEtDali/T7.jpg" , synopsis: `Migi, Dali et leurs amis se sont introduits dans le manoir des Ichijô afin de mettre en lumière une bonne fois pour toutes la vérité sur la mort de leur mère. Alors qu'ils réussissent enfin à prendre Eiji comme otage et à piéger sa mère, cette dernière se met à leur raconter une histoire.`},
+        ]],
+    }],
 ];
 
 // ------------------------------ Trier le tableau par ordre alphabétique -----------------------------------------------

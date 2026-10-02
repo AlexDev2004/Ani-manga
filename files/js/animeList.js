@@ -847,6 +847,27 @@ Un jour, il croise par hasard une de ses camarades de classe, la populaire Akira
         background:"../img/Gleipnir/Bg.jpg",
         listSaisons: false,      
     }],
+    ["MigiEtDali",{
+        support:"anime",
+        date: 20200628,
+        title: "Migi Et Dali",
+        originalTitle: "ミギとダリ",
+        otherTitle: "Migi & Dali - Migi to Dari",
+        type:  "Série",
+        class: "Seinen",
+        genre: ["Comédie","Slice of Life"],
+        theme: ["Famille","Secrets"],
+        episodes: 13,
+        saisons: 1,     
+        status: "Terminé",
+        sortie: "Automne 2023",
+        studio: ["CompTown","Geek Toys"],
+        diffusion: ["Crunchyroll"],
+        synopsis: `L'histoire nous entraîne au cœur du quotidien d'un couple d'âge moyen qui, ne pouvant faire d'enfant, décide d'adopter. Ils recueillent Hitori, un jeune garçon particulièrement beau mais qui, pour protéger sa famille, lui cache un secret important : il a un jumeau !`,
+        image: "../img/MigiEtDali/S1.jpg",
+        background:"../img/MigiEtDali/Bg.jpg",
+        listSaisons: false,      
+    }],
 ];
 
 
