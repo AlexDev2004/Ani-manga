@@ -1621,7 +1621,7 @@ Embarquez vous aussi dans ce qui pourrait bien être votre dernière partie. A v
         origine: "Japon - 2015",
         sortieVF: false,
         editeur: ["ASCII Media Works"],
-        auteur: ["Maeda Jun - Ikezawa Shin"],
+        auteur: ["Maeda Jun","Ikezawa Shin"],
         synopsis: `L'histoire nous entraîne dans un monde où certains enfants, durant la puberté, développent des pouvoirs spéciaux. Yuu Otosaka semble être, en apparence, un simple lycéen, cependant ce dernier à la capacité de pouvoir se glisser et contrôler entièrement le corps d'une personne, mais seulement durant cinq secondes. Yuu a utilisé cette compétence durant des années pour atteindre ses objectifs, ce qui lui a permit de pouvoir rentrer dans un lycée prestigieux.
 Un jour, il est prit la main dans le sac par l'énigmatique, Nao Tomori. Ne pouvant plus reculer, il est contraint, lui et sa sœur Ayumi, d'être transférés à l'Académie Hoshinoumi, un établissement pour des étudiants aux capacités surnaturelles.
 Le conseil des étudiants de cette école, mené par la fameuse Nao, est chargé de traquer les adolescents abusant de leurs pouvoirs. Ainsi, Yuu se retrouve obligé de rejoindre conseil des étudiants, qui jours après jours, va le mener à la vérité, celle qui attend tout les possesseurs de capacités surnaturelles.`,
