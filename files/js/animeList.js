@@ -629,7 +629,9 @@ Un jour, Hori et Miyamura se croisent en dehors de l'école par pur hasard. Comm
 Shinichi, jeune lycéen, est un « hôte » dont le cerveau a miraculeusement été épargné : et pour cause, Migi, son parasite, a pris possession de son bras droit ! Ce cas exceptionnel va déboucher sur une singulière cohabitation. Car au-delà de la fusion physique opérée entre Migi et Shinichi, qui partagent désormais le même corps et la même vie, va se développer un lien d'attachement particulier où les deux êtres vont apprendre chacun l'un de l'autre. Alors que Shinichi se découvre doté d'incroyables facultés physiques, il prend aussi conscience de la menace qui plane sur ses proches... et sur l'humanité tout entière.`,
         image: "../img/Parasite/S1.jpg",
         background:"../img/Parasite/Bg.jpg",
-       listSaisons: false,
+        listSaisons: false,
+        mangaLié: ["Parasite","ParasiteRéédition","NeoParasyte"],
+        animeLié: false,
     }],
     ["Citrus",{
         support:"anime",

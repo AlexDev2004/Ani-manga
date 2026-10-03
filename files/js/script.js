@@ -113,10 +113,10 @@ function createLink(object,place){
 
     if(object.support == "anime"){
         cardLink.setAttribute("href","animeInfo.html");
-        title.innerText = `${object.title} - ${object.type}`;
+        title.innerText = object.type;
     }else{
         cardLink.setAttribute("href","mangaInfo.html");
-        title.innerText = `${object.title} - ${object.support}`;
+        title.innerText = object.support;
     }
 
     image.setAttribute("src",object.image);
