@@ -101,3 +101,27 @@ function createCardAnime(animePos,target){
     card.appendChild(info);
     target.appendChild(card);
 }
+
+// --------------- Créer cartes articles liés --------------------------
+function createLink(object,place){
+    const cardLink = document.createElement("a");
+    const card = document.createElement("div");
+    const title = document.createElement("h2");
+    const image = document.createElement("img");
+
+    card.setAttribute("class","cardLink");
+
+    if(object.support == "anime"){
+        cardLink.setAttribute("href","animeInfo.html");
+        title.innerText = `${object.title} - ${object.type}`;
+    }else{
+        cardLink.setAttribute("href","mangaInfo.html");
+        title.innerText = `${object.title} - ${object.support}`;
+    }
+
+    image.setAttribute("src",object.image);
+
+    card.append(title,image);
+    cardLink.appendChild(card);
+    place.appendChild(cardLink);
+}

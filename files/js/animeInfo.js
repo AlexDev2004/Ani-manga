@@ -156,5 +156,46 @@ linkListTab.map((link , i)=>{
 })
 
 // --------------- Passer à la version manga ------------------------------------------
+const titreList = [];
+const footer = document.querySelector("section");
+if(animeSelect.mangaLié != false){
+    animeSelect.mangaLié.map((titre)=>{
+        let mangaId;
+        mangaOrdered.map((manga,i)=>{
+            if(manga[0] == titre){
+                mangaId = i;
+                titreList.push(manga);
+            }
+        });
+        createLink(mangaOrdered[mangaId][1],footer);
+    });
+}
+if(animeSelect.animeLié != false){
+    animeSelect.animeLié.map((titre)=>{
+        let animeId;
+        animeOrdered.map((anime,i)=>{
+            if(anime[0] == titre){
+                animeId = i;
+                titreList.push(anime);
+            }
+        });
+        createLink(animeOrdered[animeId][1],footer);
+    });
+}
 
-localStorage.setItem("mangaCardClicked",titleSelect);
+// -------- Envoyer le nom de la carte cliquée dans le localStorage -----------------
+
+const cardList=[];
+for(let i=0;i<titreList.length;i++){
+    cardList.push(footer.getElementsByTagName("a")[i]);
+}
+cardList.map((cardId , i)=>{
+    cardId.addEventListener("click",()=>{
+        console.log(titreList[i][0]);
+        if(titreList[i][1].support == "anime"){
+            localStorage.setItem("animeCardClicked",titreList[i][0]);
+        }else{
+            localStorage.setItem("mangaCardClicked",titreList[i][0]);
+        }
+    }); 
+});

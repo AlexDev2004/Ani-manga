@@ -1,7 +1,4 @@
-const genresGrid = document.querySelector("main");
-const genresList = genresGrid.querySelectorAll("button");
 const genreGallery = document.querySelector("#genreGallery");
-const genresTab = Array.from(genresList);
 
 // -------------- Création des cards ---------------------
 genres.map((genre)=>{
@@ -20,6 +17,9 @@ genres.map((genre)=>{
 
 
 // ------------- Clic des cards --------------------------
+const genresGrid = document.querySelector("main");
+const genresList = genresGrid.querySelectorAll("button");
+const genresTab = Array.from(genresList);
 
 genresTab.map((card)=>{
     card.addEventListener("click",()=>{

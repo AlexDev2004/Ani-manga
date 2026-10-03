@@ -106,10 +106,10 @@ for(let i=0;i<resultOrdered.length;i++){
 cardList.map((cardId , i)=>{
     cardId.addEventListener("click",()=>{
 
-        if(resultOrdered[i][1].support == "manga"){
-            localStorage.setItem("mangaCardClicked",resultOrdered[i][0]);
-        }else{
+        if(resultOrdered[i][1].support == "anime"){
             localStorage.setItem("animeCardClicked",resultOrdered[i][0]);
+        }else{
+            localStorage.setItem("mangaCardClicked",resultOrdered[i][0]);
         }
     });
 });
