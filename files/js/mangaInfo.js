@@ -9,7 +9,6 @@ mangaOrdered.map((manga)=>{
 });
 
 
-console.log(mangaSelect);
 
 const touteLaPage = document.querySelector("body");
 const page = document.querySelector("main");
@@ -147,7 +146,6 @@ cardTomeTab.map((card , i)=>{
 
 const linkList = document.querySelectorAll("#infos a");
 const linkListTab = Array.from(linkList);
-console.log(linkListTab);
 linkListTab.map((link , i)=>{
     link.addEventListener("click",()=>{
         if(link.getAttribute("class") == "genre"){
