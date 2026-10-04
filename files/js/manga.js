@@ -7,14 +7,12 @@ mangaOrdered.map((manga)=>{
 });
 
 
+// -------- Envoyer le nom de la carte cliquée dans le localStorage -----------------
 
 const cardList=[];
 for(let i=0;i<mangaOrdered.length;i++){
     cardList.push(mangaGallery.getElementsByClassName("cardTitre")[i]);
 }
-
-
-// -------- Envoyer le nom de la carte cliquée dans le localStorage -----------------
 
 cardList.map((cardId , i)=>{
     cardId.addEventListener("click",()=>{
