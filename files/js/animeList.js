@@ -1101,6 +1101,31 @@ Le jour de la remise des diplômes de Mai est enfin arrivé. Alors que Sakuta l'
         animeLié: ["BunnyGirlSenpai","BunnyGirlSenpaiFilm1","BunnyGirlSenpaiFilm2"],
         mangaLié: ["BunnyGirlSenpai","BunnyGirlSenpaiLN"],   
     }],
+    ["Re:Monster",{
+        support:"anime",
+        date: 20240620,
+        title: "Re:Monster",
+        originalTitle: "リ・モンスター",
+        otherTitle: ["Reincarnated:Monster"],
+        type:  "Série",
+        class: "Seinen",
+        genre: ["Action","Aventure","Fantastique","Isekai"],
+        theme: ["Autre monde","Combats","Elfe","Harem","Homme-Bête","Magie","Mature","Monster Girl","Monstres","Mort","Réincarnation"],
+        episodes: 12,
+        saisons: 1,     
+        status: "Terminé",
+        sortie: "Printemps 2026",
+        studio: ["Studio DEEN"],
+        diffusion: ["Crunchyroll"],
+        synopsis: `Après avoir été assassiné, Kanata Tomokui se réincarne dans le corps d'un faible gobelin du nom de Goburô. Cependant, ce dernier a conservé les souvenirs de sa vie antérieure.
+Bien que faible au départ, Goburô va rapidement devenir l'un des piliers de la race des gobelins grâce à sa compétence "d'absorption" qui lui permet d'obtenir les pouvoirs de ce qu'il mange.
+Dans ce monde où le plus fort survit, cette histoire va suivre l'ascension fulgurante de Goburô et de ses camarades.`,
+        image: "../img/ReMonster/S1.jpg",
+        background:"../img/ReMonster/Bg.jpg",
+        listSaisons: false,
+        animeLié: false,
+        mangaLié: ["Re:Monster","Re:MonsterLN"],   
+    }],
 ];
 
 
