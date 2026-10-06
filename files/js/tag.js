@@ -18,7 +18,8 @@ classifs.map((classif)=>{
     const classBox = document.createElement("input");
     classBox.setAttribute("type","checkbox");
     classBox.setAttribute("id",classif);
-    classBox.setAttribute("name",classif);
+    classBox.setAttribute("value",classif);
+    classBox.setAttribute("name","tag");
 
     caseSelector.append(classLabel,classBox);
     classPart.appendChild(caseSelector);
@@ -43,7 +44,8 @@ genres.map((genre)=>{
     const genreBox = document.createElement("input");
     genreBox.setAttribute("type","checkbox");
     genreBox.setAttribute("id",genre[0]);
-    genreBox.setAttribute("name",genre[0]);
+    genreBox.setAttribute("value",genre[0]);
+    genreBox.setAttribute("name","tag");
 
     caseSelector.append(genreLabel,genreBox);
     genrePart.appendChild(caseSelector);
@@ -68,7 +70,8 @@ themes.map((theme)=>{
     const themeBox = document.createElement("input");
     themeBox.setAttribute("type","checkbox");
     themeBox.setAttribute("id",theme);
-    themeBox.setAttribute("name",theme);
+    themeBox.setAttribute("value",theme);
+    themeBox.setAttribute("name","tag");
 
     caseSelector.append(themeLabel,themeBox);
     themePart.appendChild(caseSelector);
@@ -79,4 +82,16 @@ gallery.appendChild(themePart);
 const valider = document.createElement("button");
 valider.innerText = "Rechercher";
 valider.setAttribute("id","valider");
+valider.setAttribute("type","submit");
 gallery.appendChild(valider);
+
+
+// ------------------ Envoyer le resultat de recherche en local storage ---------------------
+
+gallery.addEventListener("submit",()=>{
+    const formData = new FormData(gallery);
+    const checked = formData.getAll('tag');
+
+    localStorage.setItem("tagList",JSON.stringify(checked));
+    localStorage.setItem("searchAction","searchTag");
+});

@@ -73,6 +73,35 @@ if(action == "searchClass"){
     });
 }
 
+//------------------------------- Tri par tag ---------------------------------------------------------------------
+if(action == "searchTag"){
+    console.log("tag");
+    tagList = JSON.parse(localStorage.getItem("tagList"));
+    
+    mangaOrdered.map((manga)=>{
+        let check = true
+        tagList.map((tag)=>{
+            let checkTag = false;
+            if(manga[1].class.includes(tag)){checkTag = true}
+            if(manga[1].genre.includes(tag)){checkTag = true}
+            if(manga[1].theme.includes(tag)){checkTag = true}
+            if(!checkTag){check = false}
+        });
+        if(check){result.push(manga)}
+    });
+    animeOrdered.map((anime)=>{
+        let check = true
+        tagList.map((tag)=>{
+            let checkTag = false;
+            if(anime[1].class.includes(tag)){checkTag = true}
+            if(anime[1].genre.includes(tag)){checkTag = true}
+            if(anime[1].theme.includes(tag)){checkTag = true}
+            if(!checkTag){check = false}
+        });
+        if(check){result.push(anime)}
+    });
+}
+
 // ------------------------------ Trier le tableau par ordre alphabétique -----------------------------------------------
 const resultOrdered = result.sort((a, b) =>
     a[0].localeCompare(b[0], undefined, {
