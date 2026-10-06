@@ -75,7 +75,6 @@ if(action == "searchClass"){
 
 //------------------------------- Tri par tag ---------------------------------------------------------------------
 if(action == "searchTag"){
-    console.log("tag");
     tagList = JSON.parse(localStorage.getItem("tagList"));
     
     mangaOrdered.map((manga)=>{
