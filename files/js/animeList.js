@@ -204,6 +204,8 @@ Plusieurs années après cet événement, Tsukasa vient sonner chez Nasa pour te
             {title: "Saison 2", image: "../img/TonikakuKawaii/S2.jpg", synopsis: `Désormais bien installés dans leur vie de jeunes mariés, Nasa et Tsukasa continuent de découvrir les petits bonheurs du quotidien à deux. Entre rendez-vous amoureux, nouvelles rencontres et moments passés avec leurs proches, leur relation devient peu à peu plus profonde. La question d'une cérémonie de mariage commence également à se poser. Mais derrière cette vie paisible, Tsukasa conserve encore des secrets sur son passé, tandis que Nasa réalise chaque jour un peu plus ce que signifie partager sa vie avec celle qu'il aime.`},
             {title: "High School Days", image: "../img/TonikakuKawaii/S2.5.jpg", synopsis: `Il s'agit d'une série d'ONA basés sur la série Tonikaku Kawaii. L'histoire est inédite. Nasa va donner un cours dans un lycée pour fille, ce qui inquiète Tsukasa.`},
         ],
+        mangaLié: ["TonikakuKawaii"],
+        animeLié: false,
     }],
     ["DeathNote",{
         support:"anime",
@@ -212,7 +214,7 @@ Plusieurs années après cet événement, Tsukasa vient sonner chez Nasa pour te
         originalTitle: "デスノート",
         otherTitle: false,
         type: "Série",
-        class: "Seinen",
+        class: "Shōnen",
         genre: ["Drame","Psychologique","Surnaturel","Thriller"],
         theme: ["Détective","Mort","Police","Shinigami","Mystère","Tragique"],
         episodes: 37,
@@ -228,6 +230,36 @@ Cependant, qui est-il pour juger les gens ? Il devient donc le pire criminel rec
         image: "../img/DeathNote/S1.jpg",
         background:"../img/DeathNote/Bg.jpg",
         listSaisons: false,
+        mangaLié: ["DeathNote","DeathNoteOne","DeathNoteShort","DeathNoteLN"],
+        animeLié: ["DeathNoteSp"]
+    }],
+    ["DeathNoteSp",{
+        support:"anime",
+        date: 20080822,
+        title: "Death Note Relight : La vision d'un Dieu",
+        originalTitle: "DEATH NOTE ディレクターズカット完全決着版",
+        otherTitle: ["Death Note Genshisuru Kami - Death Note Director's Cut : The Complete Ending Edition Special - Death Note Visions of a God"],
+        type: "Spécial",
+        class: "Shōnen",
+        genre: ["Drame","Psychologique","Surnaturel","Thriller"],
+        theme: ["Détective","Mort","Police","Shinigami","Mystère","Tragique"],
+        episodes: 2,
+        saisons: 2,
+        status: "Terminé",
+        sortie: "Eté 2008",
+        studio: ["Madhouse"],
+        diffusion: ["Netflix"],
+        synopsis: `Il suffit qu'on écrive votre nom dans ce cahier pour que vous mourriez. C'est ainsi que Light, jeune étudiant, est devenu Kira, le jour où il a trouver un de ces cahiers perdu par un dieu de la mort. C'est à partir de ce jour que commence un duel entre Light et L, le grand détective.
+Ce film animé de Death Note retrace toute l'histoire du manga, vu par Ryuk. Ce dernier nous raconte donc sa version de l'histoire.
+Un magnifique long métrage très bien réalisé qui ravira les fans.`,
+        image: "../img/DeathNote/Sp.jpg",
+        background:"../img/DeathNote/Bg.jpg",
+        listSaisons: [
+            {title: "Rewrite", nmEp: 1, image: "../img/DeathNote/Sp.jpg", synopsis: `Il suffit qu'on écrive votre nom dans ce cahier pour que vous mourriez. C'est ainsi que Light, jeune étudiant, est devenu Kira, le jour où il a trouver un de ces cahiers perdu par un dieu de la mort. C'est à partir de ce jour que commence un duel entre Light et L, le grand détective. Ce film animé de Death Note retrace toute l'histoire du manga, vu par Ryuk. Ce dernier nous raconte donc sa version de l'histoire. Un magnifique long métrage très bien réalisé qui ravira les fans.`},
+            {title: "Rewrite 2", nmEp: 1, image: "../img/DeathNote/Sp2.jpg", synopsis: `Ce téléfilm nous résume la fin de l'histoire, à partir de la mort de L. Light Yagami a triomphé de son principal ennemi, mais le pire reste à venir pour lui : deux successeurs, du nom de Mello et Near vont faire leurs apparitions... Stratégies, manipulations, complications... Assisterons-nous au début d'un nouveau monde, ou à la fin de Kira ?`},
+        ],
+        mangaLié: ["DeathNote","DeathNoteOne","DeathNoteShort","DeathNoteLN"],
+        animeLié: ["DeathNote"]
     }],
     ["AccelWorld",{
         support:"anime",

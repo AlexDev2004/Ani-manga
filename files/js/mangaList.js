@@ -270,8 +270,9 @@ Alors qu'il entame sa 19e année, un personne vient sonner à la porte de chez l
             {image: "../img/TonikakuKawaii/T35.jpg" , synopsis: ``},
             {image: "../img/TonikakuKawaii/T36.jpg" , synopsis: ``},
             {image: "../img/TonikakuKawaii/T37.jpg" , synopsis: ``},
-
-        ]]
+        ]],
+        mangaLié: false,
+        animeLié: ["TonikakuKawaii"],
     }],
     ["DeathNote",{
         support:"manga",
@@ -291,7 +292,6 @@ Alors qu'il entame sa 19e année, un personne vient sonner à la porte de chez l
         editeur: ["Kana"],
         auteur: ["Ohba Tsugumi","Obata Takeshi"],
         synopsis: `Light Yagami est un jeune lycéen de 17 ans qui possède toutes les qualités pour devenir un brillant policier comme son père, mais il s'ennuie. Les cours lui semblent trop simple, et la vie trop ennuyeuse. Un jour, il trouve le Death Note d'un Shinigami (un Dieu de la Mort). Il y est écrit que chaque nom de personne inscrit provoquera la mort de celle-ci, par crise cardiaque, ou par accident au choix de l'utilisateur.
-
 Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de débarrasser le monde des malfrats, assassins et autres bandits. Une intention que les gouvernements verront bientôt comme une menace. Ils feront alors appel à L, un célèbre détective, pour démasquer celui que ses fans appellent Kira.`,
         image: "../img/DeathNote/T1.jpg",
         background: "../img/DeathNote/Bg.jpg",
@@ -308,7 +308,101 @@ Tout d'abord, Light n'y croit pas, puis il y voit une excellente occasion de dé
             {image: "../img/DeathNote/T10.jpg" , synopsis: `Le Q. G. du S. P. K. est encerclé par les partisans de Kira, mais Near réussit à s'évader d'une façon surprenante ! Les réflexions de Near le poussent dorénavant à concevoir de lourds soupçons à l'égard du second L, alias Light, ce qui n'est pas sans incidence sur le bureau d'enquête japonais...`},
             {image: "../img/DeathNote/T11.jpg" , synopsis: `Par l'intermédiaire de Kiyomi Takada, Light communique avec Mikami à qui il a remis son cahier de la Mort. De son côté, Near décide de se rendre au Japon. Les différents acteurs de l'intrigue sont maintenant tous réunis dans l'archipel... Quelle direction les événements vont-ils prendre ?`},
             {image: "../img/DeathNote/T12.jpg" , synopsis: `Le dénouement est proche pour Light et Near qui vont enfin s'affronter ! Quelles stratégies ces deux esprits hors du commun ont-ils donc élaborées pour prendre le dessus sur leur adversaire ?`},
-        ]]
+        ]],
+        mangaLié: ["DeathNoteOne","DeathNoteShort","DeathNoteLN"],
+        animeLié: ["DeathNote","DeathNoteSp"],
+    }],
+    ["DeathNoteOne",{
+        support:"manga",
+        date: 0,
+        title: "Death Note - Never Complete",
+        originalTitle: "デスノート 特別読切",
+        otherTitle: ["Death Note, Tokubetsu Yomikiri"],
+        class: "Shōnen",
+        genre: ["Drame","Psychologique","Surnaturel","Thriller"],
+        theme: ["Détective","Mort","Police","Shinigami","Mystère","Tragique"],
+        VO: 1,
+        statusVO: "Termnié",
+        VF: "",
+        statusVF: "Non commercialisé",
+        origine: "Japon - 2020",
+        sortieVF: false,
+        editeur: ["Shueisha"],
+        auteur: ["Ohba Tsugumi","Obata Takeshi"],
+        synopsis: `Il s'agit d'un one-shot spécial mettant en scène Minoru Tanaka, le "dernier" humain ayant obtenu les pouvoirs du Death Note.
+L'histoire se déroule plusieurs années après la mort de Light Yagami, un être puissant ayant utilisé le pseudonyme de Kira pour assassiner des criminels en masse.
+Le monde a changé et les autorités sont dorénavant au courant de l'existence du Death Note. Il y a des caméras de sécurité partout et les messages ainsi que les appels téléphoniques peuvent être facilement tracés par la police.
+Pour contourner cette sécurité, le Kira originel aurait utilisé un plan différent pour pouvoir tuer des criminels. Cependant, Tanaka a trouvé un autre moyen d'utiliser ce cahier...`,
+        image: "../img/DeathNote/One.jpg",
+        background: "../img/DeathNote/Bg.jpg",
+        tomes: false,
+        mangaLié: ["DeathNote","DeathNoteShort","DeathNoteLN"],
+        animeLié: ["DeathNote","DeathNoteSp"],
+    }],
+    ["DeathNoteShort",{
+        support:"manga",
+        date: 20210528,
+        title: "DEATH NOTE Short stories",
+        originalTitle: "デスノート 短編集",
+        otherTitle: ["Death Note, Tokubetsu Yomikiri"],
+        class: "Shōnen",
+        genre: ["Drame","Psychologique","Surnaturel","Thriller","Yonkoma"],
+        theme: ["Détective","Mort","Police","Shinigami","Mystère","Tragique"],
+        VO: 1,
+        statusVO: "Termnié",
+        VF: 1,
+        statusVF: "Terminé",
+        origine: "Japon - 2021",
+        sortieVF: "2021",
+        editeur: ["Kana","Shueisha"],
+        auteur: ["Ohba Tsugumi","Obata Takeshi"],
+        synopsis: `L'histoire de C-Kira : Une histoire courte datant de 2008 (réalisé à l'occasion de la sortie du film « L : Change the World ») de 44 pages.
+Synopsis : 3 ans après la mort de Light Yagami aka Kira, quelqu'un se met à tuer avec la même méthode. Mais cette fois, ce n'est pas Ryûk qui a apporté le Death Note dans le monde humain, ni lui qui a choisi l'humain à qui le confier...
+L'histoire de A-Kira : Une histoire courte de février 2020 de 87 pages.
+Synopsis : Mai 2019, Ryûk revient dans le monde humain avec un Death Note pour s'amuser encore un peu avec les humains, mais surtout manger à nouveau des pommes. Cependant le garçon à qui il offre ce présent refuse de l'utiliser et cherche en revanche à vendre le cahier en le mettant aux enchères...
+Yonkoma : 9 pages de mini-histoires à tendance humoristique datant de 2004 à 2005.
+L – One Day : Une histoire courte de 7 pages (publié à l'origine dans le livre « L file n°15 », un photobook publié lors de la sortie du film « L : Change the World ».
+Synopsis : On suit le quotidien de L, où on voit ses étranges comportements depuis le point de vue de Watari.
+L – Wammy's House : Une histoire courte de 5 pages.
+Synopsis : Morceau du journal de Wammy, le directeur de l'orphelinat où a grandi L, racontant comment L est devenu détective.
+L'histoire de Taro Kagami : Le chapitre pilote précédemment publié dans le tome 13 de 55 pages.`,
+        image: "../img/DeathNote/Short.jpg",
+        background: "../img/DeathNote/Bg.jpg",
+        tomes: false,
+        mangaLié: ["DeathNote","DeathNoteOne","DeathNoteLN"],
+        animeLié: ["DeathNote","DeathNoteSp"],
+    }],
+    ["DeathNoteLN",{
+        support:"Novel",
+        date: 20100924,
+        title: "DEATH NOTE Sides Stories",
+        originalTitle: "デスノート",
+        otherTitle: false,
+        class: "Shōnen",
+        genre: ["Drame","Psychologique","Surnaturel","Thriller"],
+        theme: ["Détective","Mort","Police","Shinigami","Mystère","Tragique"],
+        VO: 3,
+        statusVO: "Termnié",
+        VF: 2,
+        statusVF: "Terminé",
+        origine: "Japon - 2006",
+        sortieVF: "2010",
+        editeur: ["Kana","Shueisha"],
+        auteur: ["Ohba Tsugumi","Obata Takeshi","NisiOisiN","M","Kusakabe Masatoshi","Mano Katsunari"],
+        synopsis: `Histoires supplémentaires`,
+        image: "../img/DeathNote/L1.jpg",
+        background: "../img/DeathNote/Bg.jpg",
+        tomes: [
+            ["Death Note Another Note : L'affaire B.B. des meurtres en série de Los Angeles",[
+                {image: "../img/DeathNote/L1.jpg" , synopsis: `Avant l’affaire Kira, Los Angeles est frappée par une série de meurtres aussi mystérieux que macabres. Chaque scène de crime semble contenir des indices annonçant la prochaine victime. Alors que la police est impuissante, **L**, le célèbre détective, décide de prendre l’affaire en main. Derrière ces crimes se cache **Beyond Birthday**, un ancien pensionnaire de la Wammy’s House et candidat potentiel à la succession de L. Une enquête qui marquera profondément le détective et ceux qui lui sont liés.`},
+            ]],["L Change the WorLd",[
+                {image: "../img/DeathNote/L2.jpg" , synopsis: `L, le meilleur détective au monde et le plus redouté, n'a plus que 23 jours à vivre. En effet, il a écrit son propre nom dans un death note afin d'être en mesure d'arrêter Kira, le célèbre tueur en série. Cependant, il ne pourra pas en profiter pleinement puisqu'il va devoir faire face à une horrible épidémie menaçant d'anéantir le monde d'un jour à l'autre.`},
+            ]],["Death Note - Light up the NEW world",[
+                {image: "../img/DeathNote/L3.jpg" , synopsis: `Dix années ont passées depuis la confrontation entre les deux génies Light Yagami et L. Mais 6 Death Note sont à nouveau tombés sur Terre. Une nouvelle légende commence...`},
+            ]],
+        ],
+        mangaLié: ["DeathNote","DeathNoteOne","DeathNoteShort"],
+        animeLié: ["DeathNote","DeathNoteSp"],
     }],
     ["LookBack",{
         support:"manga",
