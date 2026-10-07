@@ -272,7 +272,7 @@ Alors qu'il entame sa 19e année, un personne vient sonner à la porte de chez l
             {image: "../img/TonikakuKawaii/T37.jpg" , synopsis: ``},
         ]],
         mangaLié: false,
-        animeLié: ["TonikakuKawaii"],
+        animeLié: ["TonikakuKawaii","TonikakuKawaiiOAV","TonikakuKawaiiSp"],
     }],
     ["DeathNote",{
         support:"manga",
