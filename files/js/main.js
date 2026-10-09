@@ -44,7 +44,7 @@ for(let i=0;i<result.length;i++){
 cardList.map((cardId , i)=>{
     cardId.addEventListener("click",()=>{
 
-        if(resultOrdered[i][1].support == "manga"){
+        if(resultOrdered[i][1].support != "anime"){
             localStorage.setItem("mangaCardClicked",resultOrdered[i][0]);
         }else{
             localStorage.setItem("animeCardClicked",resultOrdered[i][0]);
