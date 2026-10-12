@@ -1833,6 +1833,31 @@ Dans cet anime, un mystérieux bouton apparaît dans chacun de ces quatre univer
         animeLié: ["IsekaiQuartet"],
         mangaLié: false,   
     }],
+    ["ArchdemonDilemma",{
+        support:"anime",
+        date: 20240620,
+        title: "Archdemon's Dilemma",
+        originalTitle: "魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい?",
+        otherTitle: ["Maō no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dō Medereba Ii? - An Archdemon's Dilemma: How to Love Your Elf Bride - I, the Demon Lord, Took a Slave Elf as My Wife, but How Do I Love Her?"],
+        type:  "Série",
+        class: "Shōnen",
+        genre: ["Comédie","Fantastique","Romance","Slice of Life"],
+        theme: ["Démons","Elfe","Magie"],
+        episodes: 12,
+        saisons: 1,     
+        status: "Terminé",
+        sortie: "Printemps 2024",
+        studio: ["Brains Base"],
+        diffusion: ["Crunchyroll"],
+        synopsis: `Zagan est craint par la plupart des gens comme un puissant mage noir. Socialement maladroit et grossier, il passe ses journées à étudier la magie tout en terrassant les personnes qui s'introduisent dans son domaine.
+Un jour, il est invité à une sombre vente aux enchères et y trouve Nephy, une esclave elfe d'une beauté incomparable. Ayant eu le coup de foudre, Zagan utilise toute sa fortune pour l'acheter mais comme il n'est pas doué pour la conversation, il ne sait pas comment interagir correctement avec elle.
+Ainsi commence l'étrange cohabitation entre un mage maladroit qui ne sait pas comment transmettre son amour et une elfe qui pense avoir été acheté pour devenir un sacrifice.`,
+        image: "../img/ArchdemonDilemma/S1.jpg",
+        background:"../img/ArchdemonDilemma/Bg.jpg",
+        listSaisons: false,
+        animeLié: false,
+        mangaLié: ["ArchdemonDilemma","ArchdemonDilemmaLN","ArchdemonDilemmaGaiden"],   
+    }],
 ];
 
 
