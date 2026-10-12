@@ -1,0 +1,24 @@
+main{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.part{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.case{
+    display: flex;
+    background-color: #854242;
+    border-radius: 4px;
+    padding:2px;
+}
+
+#valider{
+    margin-top: 15px;
+    background-color: #854242;
+    font-weight: bold;
+    padding:3px;
+    border-radius: 5px;
+}

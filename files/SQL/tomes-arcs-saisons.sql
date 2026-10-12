@@ -1,0 +1,49 @@
+-- ----------------------- Sword Art Online ----------------------------------------------
+INSERT INTO arc (numero_arc , nom_arc , id_manga) VALUE
+-- Manga ---
+	(1 , "Aincrad" , 1),(2 , "Fairy Dance" , 1),(3 , "Phantom Bullet" , 1),(4 , "Calibur" , 1),(5 , "Mother Rosario" , 1),(6 , "Ordina Scale" , 1),(7 , "Project Alicization" , 1),
+-- Light Novel ---
+	(1, "Edition française (Volumes doubles)" , 2),(2, "Edition originale" , 2),
+-- Progressive ---
+	(1,"Arc 1",3),(2,"Arc 2",3),(3,"Arc 2",3),(4,"Kogane Ritsu no Kanon",3);
+    
+INSERT INTO tomes (numero_tomes , id_arc , id_manga , image_tomes , synopsis_tomes) VALUE
+-- Manga ---
+	(1,1,1, "../img/SwordArtOnline/AincradT1.jpg" , 'En 2022, Kirito, un adolescent sans histoire, se retrouve piégé avec 10 000 autres joueurs dans un jeu en réalité augmentée massivement multijoueurs : Sword Art Online. Pour regagner leur liberté, les joueurs devront compléter les 100 étages qui composent l''Aincrad, leur prison virtuelle. Mais le moindre faux pas pourrait être fatal, puisqu''un Game Over dans le jeu entraînera une mort réelle. Kirito, le joueur solo, se lance dans une course effrénée pour sa survie, dans un monde où l''art de l''épée dicte la loi des plus forts.'),
+    (2,1,1, "../img/SwordArtOnline/AincradT2.jpg" , '« Vous êtes bien dans un jeu vidéo, mais vous n''êtes plus là pour jouer. ». Deux ans après le début de la partie, seulement six mille survivants... Kirito est l''un d''eux. Il a décidé de conquérir en « solo » les cent étages qui le mèneront au combat final et qui lui permettra de regagner sa liberté. Mais c''est sans compter sur l''obstination d''Asuna, une habile épéiste avec qui il va devoir s''allier. Démarre alors une course effrénée pour survivre dans un monde où l''art de l''épée dicte la loi. Fin du premier chapitre Aincrad de Sword Art Online.'),
+    
+    (1,2,1, "../img/SwordArtOnline/FairyDanceT1.jpg" , 'Kazuto Kirigaya, alias Kirito, est revenu sain et sauf d''Aincrad, mais Asuna ne s''est toujours pas réveillée de son coma. Alors qu''il lui rend visite à l''hôpital, il apprend que Nobuyuki Sugô compte l''épouser malgré son état. Peu après, Agil lui montre l''image troublante d''un avatar ressemblant étrangement à Asuna, apparemment prisonnière d''un nouveau VRMMO : ALfheim Online. Convaincu qu''il s''agit bien d''elle, Kirito décide de replonger dans la réalité virtuelle pour la retrouver et découvrir ce qui se cache derrière ce nouveau jeu.'),
+	(2,2,1, "../img/SwordArtOnline/FairyDanceT2.jpg" , 'Kirito s''engouffre à l''intérieur du VRMMO « Alfheim Online » pour atteindre le sommet de l''Arbre du monde. Il y rencontre une Sylphide du nom de Leafa, qui accepte de l''y accompagner... Cependant, Leafa n''est en réalité, rien d''autre que la propre sœur de Kazuto, Suguha. Cette dernière éprouve secrètement des sentiments pour celui. Ils poursuivent leur route ensemble vers l'' « Arbre du monde » sans connaître le destin qui les lie, ni celui qui les attend...'),
+	(3,2,1, "../img/SwordArtOnline/FairyDanceT3.jpg" , 'Kirito, Yui et Lyfa arrivent au pied de l''Arbre du Monde où est retenue Asuna. Yui ressantant fortement l''ID d''Asuna en haut de l''arbre, elle en informe Kirito. Celui-ci, plus résolu que jamais à sauver Asuna, se lance alors seul à l''assaut de la Grande Quête, que personne n''a jamais réussi à accomplir, mais qui constitue le seul moyen de se rendre au sommet de l''arbre.'),	
+    
+    (1,3,1, "../img/SwordArtOnline/PhantomBulletT1.jpg" , 'Le volume débute sur un bref rappel des événements de l''arc Aincrad avant de nous plonger directement dans l''univers de GGO via Sinon. Le tournoi du jeu, Bullet of Bullets, est sur le point de débuter lorsqu''un des favoris, Zexceed, disparaît mystérieusement. D''après certains témoins, un étrange individu lui aurait tiré dessus à travers un écran en prétendant le tuer dans la vraie vie. Coïncidence troublante, Zexceed s''est déconnecté peu après, en pleine interview. Kirito est alors choisit par Kikuoka Seijirô pour mener l''enquête de l''intérieur.'),
+	(2,3,1, "../img/SwordArtOnline/PhantomBulletT2.jpg" , 'Afin de mener l''enquête qui lui a été confié, Kirito a converti son avatar afin de pouvoir jouer à GGO. Une fois dans le jeu, il a fait la connaissance de Sinon, qui lui a indiqué comment s''inscrire au tournoi. En effet, Kirito est persuadé que Death Gun va profiter du tournoi pour faire de nouvelles victimes et il compte bien l''arrêter avant.'),
+    (3,3,1, "../img/SwordArtOnline/PhantomBulletT3.jpg" , 'Alors que la fin du tournoi Bullet of Bullets approche, Kirito et Sinon se trouvent face au mystérieux assassin qui, comme le jeune épéiste, s''avère être un survivant de SAO.'),
+    (4,3,1, "../img/SwordArtOnline/PhantomBulletT4.jpg" , 'Kirito a désormais la conviction que Death Gun ne tue pas directement les joueurs dans le jeu, mais qu''il utilise une autre méthode. Ayant l''intuition que Sinon est en danger, il se précipite au secours de cette dernière.'),
+    
+	(1,4,1, "../img/SwordArtOnline/Calibur.jpg" , 'Après avoir résolu l''affaire "Death Gun", Kirito retourne sur ALO afin d''obtenir l''épée la plus puissante du jeu : la légendaire Excalibur. Accompagné d''Asuna, Klein, Lisbeth, Lyfa, Silica et Sinon, qui s''est créée un avatar pour pouvoir jouer avec le groupe, il se lance donc dans une série de quête basées sur la mythologie nordique.'),
+    
+    (1,5,1, "../img/SwordArtOnline/MothersRosarioT1.jpg" , 'Depuis quelques temps, un spriggan surnommé Zekken (épée absolue) fait beaucoup parler de lui sur ALO. En effet, ce joueur serait invincible et même Kirito ne serait pas parvenu à le vaincre. Cela pique l''intérêt d''Asuna qui décide de tenter sa chance. C''est ainsi qu''elle rencontre Yuuki, une jeune fille qui lui rappelle beaucoup Kirito et qui, derrière d''impressionnantes capacités, cache un lourd secret.'),
+    (2,5,1, "../img/SwordArtOnline/MothersRosarioT2.jpg" , 'Asuna a temporairement rejoint la guilde de Yuuki, les Sleeping Knight, et a entrepris de les aider à accomplir leur objectif : vaincre un boss avec seulement 7 personnes, afin de graver tous leurs pseudonymes sur le Kenshi no Hi, le Mur des Épéistes.'),
+    (3,5,1, "../img/SwordArtOnline/MothersRosarioT3.jpg" , 'Alors qu''elle découvre le secret de Yûki, Asuna décide de s''impliquer de plus en plus auprès de la jeune fille et de l''aider à réaliser ses rêves.'),
+
+	(1,6,1, "../img/SwordArtOnline/OrdinalScaleT1.jpg" , 'Ordinal Scale est le jeu le plus populaire auquel il est possible de jouer grâce à l''Augma. Asuna, Klein et leurs amis en sont fans et adorent participer aux events. Kirito, de son côté, est plus réservé. Il faut dire qu''OS est beaucoup plus physique que les autres VRMMORPG et il manque cruellement d''entraînement.'),
+	(2,6,1, "../img/SwordArtOnline/OrdinalScaleT2.jpg" , 'Alors qu''elle participe à un événement d''Ordinal Scale proposant de combattre d''anciens boss issus de SAO, Asuna perd subitement la mémoire ! Elle se souvient de sa famille, de ses amis, de sa relation avec Kirito, mais elle a tout oublié des deux années passées dans le jeu mortel. Intrigué, Kirito décide d''enquêter.'),
+	(3,6,1, "../img/SwordArtOnline/OrdinalScaleT3.jpg" , 'Après avoir joué à Ordinal Scale un peu plus sérieusement, Kirito découvre les raisons de l''amnésie d''Asuna ainsi que l''objectif d''Eiji et de son complice. Il décide alors d''intervenir pour que ses amis retrouvent leurs souvenirs.'),
+	(4,6,1, "../img/SwordArtOnline/OrdinalScaleT4.jpg" , 'Tout ce qui se passe d''étrange dans Ordinal Scale semble lié à la mystérieuse AI Yuna, dont le premier grand concert aura lieu prochainement. Kirito décide de s''y rendre afin de mettre un terme aux ambitions d''Eiji et de ses complices.'),
+	(5,6,1, "../img/SwordArtOnline/OrdinalScaleT5.jpg" , 'Le mystérieux lien entre Yuna et Eiji se dévoile, tout comme le but réel du créateur d''Ordinal Scale. Mais est-il encore possible de l''arrêter?'),
+    
+	(1,7,1, "../img/SwordArtOnline/ProjectAlicizationT1.jpg" , 'Invité à tester une nouvelle machine de réalité virtuelle, Kirito est agressé par un ancien membre de Laughing Coffin et se retrouve piégé dans un mystérieux monde appelé l''Underworld. Incapable de rejoindre la réalité, il y rencontre Eugeo, un jeune entailleur marqué par la disparition de son amie d''enfance, Alice. Ensemble, ils partent dans une quête qui les mènera bien au-delà de leur village. Mais quels secrets cache l''Underworld, et que se trame-t-il dans le monde réel ? La plus grande aventure de l''Épéiste noir ne fait que commencer.'),
+    (2,7,1, "../img/SwordArtOnline/ProjectAlicizationT2.jpg" , 'Après avoir été agressé, Kirito s''éveille dans l''Underworld sans vraiment comprendre ce qui lui est arrivé. Là, il retrouve Eugeo, qui a désormais son âge mais ne se souvient pas de lui.'),
+    (3,7,1, "../img/SwordArtOnline/ProjectAlicizationT3.jpg" , 'Après s''être fait quelques frayeurs, Kirito et Eugeo ont enfin réussi à venir à bout de la Tâche de ce dernier. Ils peuvent désormais quitter le village et partir à la recherche d''Alice.'),
+    (4,7,1, "../img/SwordArtOnline/ProjectAlicizationT4.jpg" , 'Arrêtés par nulle autre qu''Alice, Kirito et Eugeo sont emmenés à la cathédrale où réside l''Administrateur et l''élite de l''empire humain : les Chevaliers Intègres.'),
+    (5,7,1, "../img/SwordArtOnline/ProjectAlicizationT5.jpg" , 'Afin de comprendre ce qui est arrivé à Alice, Kirito et Eugeo s''infiltrent au cœur de la cathédrale afin de trouver l''Administrateur. Mais l''ascension est semée d''embûches et le duo doit affronter de nombreux Chevaliers Intègres.'),
+    
+-- Light Novel ---
+	(1,8,2, "" , ''),
+    
+-- Progressive ---
+	(1,10,3, "" ,''),
+    
+-- Progressive LN ---
+	(1,null,4, "" , '');

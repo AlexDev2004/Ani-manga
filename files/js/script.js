@@ -1,0 +1,127 @@
+const searchBar = document.getElementById("search");
+const zoneDeRecherche = document.getElementById("searchZone");
+
+zoneDeRecherche.addEventListener("submit",()=>{
+    searchBar.value;
+    localStorage.setItem("searchBar",searchBar.value);
+    localStorage.setItem("searchAction","searchBar");
+});
+
+
+
+
+
+
+
+function createCardManga(mangaPos,target){
+    let manga = mangaPos[1];
+
+    const card = document.createElement("a");
+    card.setAttribute("href","mangaInfo.html");
+    card.setAttribute("class","cardTitre");
+    const image = document.createElement("img");
+    image.setAttribute("src",manga.image);
+    card.appendChild(image);
+
+    const info = document.createElement("div");
+
+    const title = document.createElement("h2");
+    title.innerHTML = `${manga.title}`;
+    const classif = document.createElement("p");
+    classif.innerHTML = `<strong>Classification :</strong> ${manga.class}`;
+
+    const genres = document.createElement("p");
+    let genreLink = [];
+    manga.genre.map((genre)=>{genreLink.push(genre)});
+    genres.innerHTML = `<strong>Genres :</strong> ${genreLink.join(" - ")}`;
+
+    const themes = document.createElement("p");
+    let themeLink = [];
+    manga.theme.map((theme)=>{themeLink.push(theme)})
+    themes.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
+    
+    const tomeVF = document.createElement("p");
+    const flag = document.createElement("img");
+    if(!manga.VF){
+        flag.setAttribute("src","../svgFlag/jp.svg");
+    }else{
+        tomeVF.innerHTML = `<strong>Tomes VF :</strong> ${manga.VF}`;
+        flag.setAttribute("src","../svgFlag/fr.svg");
+    }
+    flag.setAttribute("class","flag");
+    flag.style.border = "solid black 1px";
+    flag.style.borderRadius = "3px";
+
+    const tomeVO = document.createElement("p");
+    tomeVO.innerHTML = `<strong>Tomes VO :</strong> ${manga.VO}`;
+
+    info.append(title,classif,genres,themes,tomeVF,tomeVO,flag);
+
+    card.appendChild(info);
+    target.appendChild(card);
+}
+
+function createCardAnime(animePos,target){
+    let anime = animePos[1];
+
+    const card = document.createElement("a");
+    card.setAttribute("href","animeInfo.html");
+    card.setAttribute("class","cardTitre");
+    const image = document.createElement("img");
+    image.setAttribute("src",anime.image);
+    card.appendChild(image);
+
+    const info = document.createElement("div");
+
+    const title = document.createElement("h2");
+    title.innerHTML = `${anime.title}`;
+    const classif = document.createElement("p");
+    classif.innerHTML = `<strong>Classification :</strong>${anime.class}`;
+
+    const genres = document.createElement("p");
+    let genreLink = [];
+    anime.genre.map((genre)=>{genreLink.push(genre)});
+    genres.innerHTML = `<strong>Genres :</strong> ${genreLink.join(" - ")}`;
+
+    const themes = document.createElement("p");
+    let themeLink = [];
+    anime.theme.map((theme)=>{themeLink.push(theme)})
+    themes.innerHTML = `<strong>Thèmes :</strong> ${themeLink.join(" - ")}`;
+    
+    const episodes = document.createElement("p");
+    episodes.innerHTML = `<strong>Episodes :</strong> ${anime.episodes}`;
+    const saisons = document.createElement("p");
+
+    if(anime.listSaisons != false){
+        saisons.innerHTML = `<strong>Saisons :</strong> ${anime.saisons}`;
+    }
+
+    info.append(title,classif,genres,themes,episodes,saisons);
+
+    card.appendChild(info);
+    target.appendChild(card);
+}
+
+// --------------- Créer cartes articles liés --------------------------
+function createLink(object,place){
+    const cardLink = document.createElement("a");
+    const card = document.createElement("div");
+    const title = document.createElement("h2");
+    const image = document.createElement("img");
+
+    card.setAttribute("class","cardLink");
+
+    if(object.support == "anime"){
+        cardLink.setAttribute("href","animeInfo.html");
+        title.innerText = object.type;
+    }else{
+        cardLink.setAttribute("href","mangaInfo.html");
+        title.innerText = object.support;
+    }
+
+    image.setAttribute("src",object.image);
+
+    card.append(title,image);
+    cardLink.appendChild(card);
+    place.appendChild(cardLink);
+}
