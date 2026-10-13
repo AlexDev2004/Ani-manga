@@ -44,3 +44,5 @@ INSERT INTO theme (nom_theme) VALUE
 	("Tabac"),("Terrorisme"),("Tragique"),("Transformation"),("Travail"),
 	("Vengeance"),("Voyage temporel"),
 	("Yakuza"),("Yuri");
+    
+    SELECT * FROM 

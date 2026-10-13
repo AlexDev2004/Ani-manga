@@ -18,3 +18,5 @@ INSERT INTO type_annexe (nom_type_annexe) VALUE
     
 INSERT INTO type_liste (nom_type_liste) VALUE
 	("Favori"),("Ma liste");
+    
+SELECT * FROM support
