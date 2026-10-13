@@ -39,7 +39,7 @@ INSERT INTO theme (nom_theme) VALUE
 	("Magie"),("Maid"),("Malédiction"),("Mariage"),("Mature"),("Médium"),("Mensonges"),("Monde virtuel"),("Mort"),("Monster Girl"),("Monstres"),("Musique"),("Mystère"),
 	("Organisations secrètes"),("Otaku"),
 	("Poésie"),("Police"),("Politique"),("Post-apocalyptique"),("Pouvoirs psychiques"),
-	("Réincarnation"),
+	("Réincarnation"),("Royauté"),
 	("School life"),("Scientifique"),("Shinigami"),("Shōjo-aï"),("Solitude"),("Sorcellerie"),("Société"),("Sources chaudes"),("Sport"),("Succube/Incube"),("Super pouvoirs"),("Survie"),("Survival game"),
 	("Tabac"),("Terrorisme"),("Tragique"),("Transformation"),("Travail"),
 	("Vengeance"),("Voyage temporel"),

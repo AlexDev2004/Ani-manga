@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS statut(
     nom_statut VARCHAR(20) NOT NULL UNIQUE
 )ENGINE=innodb;
 
-CREATE TABLE IF NOT EXISTS classification(
+CREATE TABLE IF NOT EXISTS classification(	
 	id_classification INT PRIMARY KEY AUTO_INCREMENT,
     nom_classification VARCHAR(10) NOT NULL UNIQUE
 )ENGINE=innodb;
@@ -306,8 +306,8 @@ ALTER TABLE arc
 
 ALTER TABLE tomes
 	ADD CONSTRAINT fk_tomes_manga FOREIGN KEY (id_manga) REFERENCES manga(id_manga) ON DELETE CASCADE,
-    ADD CONSTRAINT uq_numero_tomes UNIQUE (id_manga , numero_tomes),
-    ADD CONSTRAINT fk_tomes_arc_manga FOREIGN KEY (id_arc , id_manga) REFERENCES arc(id_arc , id_manga);
+    ADD CONSTRAINT fk_tomes_arc_manga FOREIGN KEY (id_arc , id_manga) REFERENCES arc(id_arc , id_manga),
+    ADD CONSTRAINT uq_numero_tomes UNIQUE (numero_tomes , id_arc);
     
 ALTER TABLE saisons
 	ADD CONSTRAINT fk_saisons_anime FOREIGN KEY (id_anime) REFERENCES anime(id_anime) ON DELETE CASCADE,
