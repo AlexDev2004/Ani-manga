@@ -3222,11 +3222,45 @@ Sur place, notre héros décide d'acheter une esclave elfe, dont la beauté l'a 
         mangaLié: ["ArchdemonDilemma","ArchdemonDilemmaLN"],
         animeLié: ["ArchdemonDilemma"],
     }],
+    ["Tani&Suzuki",{
+        support:"Manga",
+        date: 20260701,
+        title: "Tani & Suzuki",
+        originalTitle: "正反対な君と僕",
+        otherTitle: ["Seihantai na Kimi to Boku - You and I are Polar Opposites"],
+        class: "Shōnen",
+        genre: ["Comédie","Romance","Slice of Life"],
+        theme: ["Adolescence","Amour","School life"],
+        VO: 8,
+        statusVO: "Terminé",
+        VF: 5,
+        statusVF: "En cours",
+        origine: "Japon - 2022",
+        sortieVF: "2026",
+        editeur: ["Shueisha","nobi nobi!"],
+        auteur: ["Agasawa Kocha"],
+        synopsis: `Tani et Suzuki n'ont rien à faire ensemble... et alors ?
+Suzuki est une jeune fille au caractère bien trempé, mais qui craint beaucoup le regard des autres. Elle est amoureuse en secret de Tani, son parfait opposé : un garçon discret mais d'une franchise extrême. Suzuki n'a trouvé qu'un seul moyen de parler à l'élu de son cœur sans risquer d'être percée à jour : l'embêter pour un oui ou pour un non. Mais un beau jour, elle décide de prendre son courage à deux mains et qu'importe ce qu'en diront les autres !`,
+        image: "../img/Tani&Suzuki/T1.jpg",
+        background: "../img/Tani&Suzuki/Bg.jpg",
+        tomes: [false,[
+            {image: "../img/Tani&Suzuki/T1.jpg" , synopsis: `Suzuki est une jeune fille au caractère bien trempé, mais qui craint beaucoup le regard des autres. Elle est amoureuse en secret de Tani, son parfait opposé : un garçon discret mais d'une franchise extrême. Suzuki n'a trouvé qu'un seul moyen de parler à l'élu de son cœur sans risquer d'être percée à jour : l'embêter pour un oui ou pour un non. Mais un beau jour, elle décide de prendre son courage à deux mains et qu'importe ce qu'en diront les autres !`},
+            {image: "../img/Tani&Suzuki/T2.jpg" , synopsis: `Suzuki est aux anges : Tani a accepté de l'accompagner à un festival de quartier ! Alors que nos deux tourtereaux se rapprochent, Yamada avoue à la bande que quelqu'un lui a tapé dans l'œil ! Entre les vacances et le festival du lycée, de nombreux événements attendent notre petite bande, cet été !`},
+            {image: "../img/Tani&Suzuki/T3.jpg" , synopsis: `Nos deux tourtereaux franchissent un nouveau cap lorsque Suzuki invite Tani chez elle pour la première fois ! L'occasion rêvée de se rapprocher et de se découvrir un peu plus. De son côté, Yamada éclaircit enfin les choses avec Nishi, après un été ponctué de messages maladroits. L'automne s'annonce doux et plein de promesses pour notre petite bande !`},
+            {image: "../img/Tani&Suzuki/T4.jpg" , synopsis: `Ça y est, c'est l'heure du voyage scolaire ! Tandis que Nishi commence à apprivoiser ses sentiments pour Yamada, celui-ci essaie de s'arranger pour faire coïncider leurs visites à Kyoto et multiplier ainsi les occasions de la croiser. De leur côté, Suzuki et Tani se promettent de profiter de leur journée de quartier libre en amoureux... Entre rapprochements et maladresses, ce séjour s'annonce riche en émotions pour notre petite bande !`},
+            {image: "../img/Tani&Suzuki/T5.jpg" , synopsis: `Noël est enfin là ! Pour l'occasion, Tani et Suzuki décident de préparer un gâteau ensemble. Suzuki fonde beaucoup d'espoirs sur cette journée en amoureux, organisée chez elle, mais les choses ne tardent pas à prendre une tournure inattendue... De son côté, Yamada réalise que cela fait déjà un bout de temps qu'il discute avec Nishi... Et s'il était temps de passer à la vitesse supérieure ? Notre petite bande s'apprête à vivre de nouveaux moments riches en émotion dans l'euphorie des fêtes de fin d'année !`},
+            {image: "../img/Tani&Suzuki/T6.jpg" , synopsis: `A l'approche de la Saint-Valentin, l'amour est dans l'air ! Alors que Tani et Suzuki savourent leur relation avec tendresse, Yamada cherche le moment idéal pour déclarer sa flamme à Nishi. Persuadé d'avoir imaginé le plan parfait, il est bien décidé à passer à l'action. De son côté, Taira voit ressurgir ses angoisses alors que son lien avec Azuma prend peu à peu une importance nouvelle. Parviendra-t-il à dépasser ses doutes, ou risque-t-il de tout gâcher avant de comprendre ce qu'il ressent vraiment ?`},
+            {image: "../img/Tani&Suzuki/T7.jpg" , synopsis: ``},
+            {image: "../img/Tani&Suzuki/T8.jpg" , synopsis: ``},
+        ]],
+        mangaLié: false,
+        animeLié: ["Tani&Suzuki"],
+    }],
 ];
 
 // ------------------------------ Trier le tableau par ordre alphabétique -----------------------------------------------
 const mangaOrdered = mangaList.sort((a, b) =>
-    a[0].localeCompare(b[0], undefined, {
+    a[1].title.localeCompare(b[1].title, undefined, {
         sensitivity: "base"
     })
 );

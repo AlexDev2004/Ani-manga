@@ -21,7 +21,7 @@ const animeList=[
         listSaisons:[
             {title: "Saison 1" , nbEp: 25, image: "../img/SwordArtOnline/S1.jpg" , synopsis: `En 2022, Sword Art Online devient le premier MMORPG utilisant une technologie de réalité virtuelle permettant une immersion totale. Mais dès son lancement, 10 000 joueurs se retrouvent piégés par son créateur, Akihiko Kayaba. Pour retrouver leur liberté, ils devront terminer le jeu, avec une terrible règle : mourir dans SAO signifie mourir dans la réalité. Kirito, ancien bêta-testeur, décide de partir seul à la conquête des 100 étages d'Aincrad et de leurs redoutables boss. Parviendra-t-il à terminer le jeu et à libérer tous les joueurs ?`},
             {title: "Saison 2" , nmEp: 25, image: "../img/SwordArtOnline/S2.jpg" , synopsis: `Après sa victoire face à Sugou Nobuyuki, Kirito retrouve enfin sa paisible vie de lycéen. Mais plusieurs morts mystérieuses viennent bientôt troubler son quotidien : des joueurs de Gun Gale Online seraient décédés dans la réalité après avoir été abattus dans le jeu. Sollicité par Kikuoka Seijirô pour enquêter, Kirito plonge dans ce nouvel univers dominé par les armes à feu. Il devra participer au tournoi Bullet of Bullets et retrouver Death Gun, un mystérieux joueur qui semble capable de tuer ses victimes à travers le monde virtuel.`},
-            {title: "Saison 3 - Alicization" , nmEp: 47,image: "../img/SwordArtOnline/S3.jpg" , synopsis: `À la demande de Seijirô Kikuoka, Kazuto teste le Soul Translator, une nouvelle technologie développée par Rath qui lui permet d'accéder à l'Underworld. Il y rencontre Eugeo et Alice, deux enfants avec lesquels il se lie d'amitié, avant qu'Alice ne soit emmenée pour avoir enfreint les lois de ce monde. Plus tard, Kazuto est grièvement blessé dans la réalité par un ancien membre de Laughing Coffin. Pour le sauver, il est plongé dans l'Underworld, où plusieurs années se sont écoulées et où il retrouve Eugeo, désormais devenu un jeune homme.`},            
+            {title: "Saison 3 - Alicization" , nmEp: 47,image: "../img/SwordArtOnline/S3.jpg" , synopsis: ` `},            
         ],
         mangaLié: ["swordArtOnline","swordArtOnlineLN","swordArtOnlineP","swordArtOnlinePLN"],
         animeLié: ["swordArtOnlineEtra","swordArtOnlineOS","swordArtOnlineP1","swordArtOnlineP2","swordArtOffline","swordArtOnlineEchoe"],
@@ -1882,6 +1882,33 @@ Ainsi commence l'étrange cohabitation entre un mage maladroit qui ne sait pas c
         listSaisons: false,
         animeLié: false,
         mangaLié: ["ArchdemonDilemma","ArchdemonDilemmaLN","ArchdemonDilemmaGaiden"],   
+    }],
+    ["Tani&Suzuki",{
+        support:"anime",
+        date: 20261004,
+        title: "You and I Are Polar Opposites",
+        originalTitle: "正反対な君と僕",
+        otherTitle: ["Seihantai na Kimi to Boku - Tani & suzuki, You and I are Polar Opposites"],
+        type:  "Série",
+        class: "Shōnen",
+        genre: ["Comédie","Romance","Slice of Life"],
+        theme: ["Adolescence","Amour","School life"],
+        episodes: 25,
+        saisons: 2,     
+        status: "Terminé",
+        sortie: "Hiver 2026",
+        studio: ["Lapintrack"],
+        diffusion: ["Crunchyroll"],
+        synopsis: `Miyu Suzuki est une lycéenne brillante et pétillante qui est amoureuse d'un garçon. Il y a juste un petit problème : en ce qui concerne son caractère, le garçon qu'elle aime est son opposé !
+Alors qu'elle est joyeuse, extravertie et cherche toujours à s'intégrer, son camarade de classe nommé Yusuke Tani est stoïque et silencieux, et ne semble pas se soucier de ce que les gens pensent de lui. Suzuki parviendra-t-elle à surmonter son anxiété et à lui demander de sortir avec elle, ou découvrira-t-elle que les opposés ne s'attirent pas vraiment ?`,
+        image: "../img/Tani&Suzuki/S1.jpg",
+        background:"../img/Tani&Suzuki/Bg.jpg",
+        listSaisons: [
+            {title: "Saison 1", nbEp: 12 , image: "../img/Tani&Suzuki/S1.jpg" , synopsis: `Miyu Suzuki est une lycéenne brillante et pétillante qui est amoureuse d'un garçon. Il y a juste un petit problème : en ce qui concerne son caractère, le garçon qu'elle aime est son opposé ! Alors qu'elle est joyeuse, extravertie et cherche toujours à s'intégrer, son camarade de classe nommé Yusuke Tani est stoïque et silencieux, et ne semble pas se soucier de ce que les gens pensent de lui. Suzuki parviendra-t-elle à surmonter son anxiété et à lui demander de sortir avec elle, ou découvrira-t-elle que les opposés ne s'attirent pas vraiment ?`},
+            {title: "Saison 2", nbEp: 13 , image: "../img/Tani&Suzuki/S2.jpg" , synopsis: `Seconde saison de You and I Are Polar Opposites.`},
+        ],
+        mangaLié: ["Tani&Suzuki"],
+        animeLié: false,   
     }],
 ];
 

@@ -47,3 +47,15 @@ INSERT INTO tomes (numero_tomes , id_arc , id_manga , image_tomes , synopsis_tom
     
 -- Progressive LN ---
 	(1,null,4, "" , '');
+    
+INSERT INTO saisons (numero_saisons , id_anime , episodes_saisons , nom_saisons , image_saisons , synopsis_saisons) VALUE
+-- Série ---
+	(1,1,25, 'Saison 1' , '../img/SwordArtOnline/S1.jpg' , 'En 2022, Sword Art Online devient le premier MMORPG utilisant une technologie de réalité virtuelle permettant une immersion totale. Mais dès son lancement, 10 000 joueurs se retrouvent piégés par son créateur, Akihiko Kayaba. Pour retrouver leur liberté, ils devront terminer le jeu, avec une terrible règle : mourir dans SAO signifie mourir dans la réalité. Kirito, ancien bêta-testeur, décide de partir seul à la conquête des 100 étages d''Aincrad et de leurs redoutables boss. Parviendra-t-il à terminer le jeu et à libérer tous les joueurs ?'),
+    (2,1,25, 'Saison 2' , '../img/SwordArtOnline/S2.jpg' , 'Après sa victoire face à Sugou Nobuyuki, Kirito retrouve enfin sa paisible vie de lycéen. Mais plusieurs morts mystérieuses viennent bientôt troubler son quotidien : des joueurs de Gun Gale Online seraient décédés dans la réalité après avoir été abattus dans le jeu. Sollicité par Kikuoka Seijirô pour enquêter, Kirito plonge dans ce nouvel univers dominé par les armes à feu. Il devra participer au tournoi Bullet of Bullets et retrouver Death Gun, un mystérieux joueur qui semble capable de tuer ses victimes à travers le monde virtuel.'),
+    (3,1,47, 'Saison 3 - Alicization' , '../img/SwordArtOnline/S3.jpg' , 'À la demande de Seijirô Kikuoka, Kazuto teste le Soul Translator, une nouvelle technologie développée par Rath qui lui permet d''accéder à l''Underworld. Il y rencontre Eugeo et Alice, deux enfants avec lesquels il se lie d''amitié, avant qu''Alice ne soit emmenée pour avoir enfreint les lois de ce monde. Plus tard, Kazuto est grièvement blessé dans la réalité par un ancien membre de Laughing Coffin. Pour le sauver, il est plongé dans l''Underworld, où plusieurs années se sont écoulées et où il retrouve Eugeo, désormais devenu un jeune homme.'),
+    
+-- Offline ---
+	(1,6,9, 'Sword Art Offline' , '../img/SwordArtOnline/Off.jpg' , 'Ce sont les épisodes spéciaux de l''anime Sword Art Online. Ils se déroulent comme si c''était une émission de Télé Réalité dans le monde réel. Kirito et Asuna, les présentateurs de l''émission Sword Art Offline, accueillent quelques invités qui leurs racontent certains moments passés dans le jeux vidéo (l''anime).'),
+    (2,6,1, 'Extra Edition' , '../img/SwordArtOnline/OffExtra.jpg' , 'Spécial inclus dans le DVD/Blu-ray de Sword Art Online : Extra Edition.'),
+    (3,6,9, 'Sword Art Offline II' , '../img/SwordArtOnline/Off2.jpg' , 'Épisodes spéciaux qui seront inclus dans les DVD/Blu-ray de la série Sword Art Online II.'),
+    (4,6,1, 'Ordinal Scale' , '../img/SwordArtOnline/OffOS.jpg' , 'Episode spécial inclus dans le DVD/Blu-ray du film Sword Art Online the Movie -Ordinal Scale-.');
