@@ -1,0 +1,28 @@
+#autor{
+    display: flex;
+    background-color: rgb(245, 175, 175);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    gap: 20px;
+
+    img{
+        height: 300px;
+        width: auto;
+    }
+    div{
+        h1{
+            background: none;
+            box-shadow: none;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+            color: #800000;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+    background-color: #800000;
+    align-items: center;
+    justify-content: center;
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+
+        a{
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: #814040;
+        }
+
+        form{
+            height: 40px;
+            display: flex;
+            gap: 10px;
+            input{
+                height: 90%;
+                border-radius: 5px;
+                border: none;
+            }
+            button{
+                height: 100%;
+                border-radius: 5px;
+                border: none;
+                background-color: #963434;
+                color: white;
+                font-size: 20px;
+            }
+            button:hover{
+                background-color: #a86d6d;
+            }
+        }
+    }
+}
